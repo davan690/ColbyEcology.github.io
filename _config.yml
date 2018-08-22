@@ -15,8 +15,8 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p> <i>Ecology</i>: The study of the spatial and temporal patterns<br>of the distribution and abundance of organisms,<br>including the causes and consequences </p>
-  header_text_feature_image: assets/img/features/enchanted-forest-1360819.jpg
+     <p> <i>Ecology is the study of the spatial and temporal patterns<br>of the distribution and abundance of organisms,<br>including the causes and consequences</i> </p>
+  header_text_feature_image: assets/img/features/enchanted-forest-1360819_edit.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
