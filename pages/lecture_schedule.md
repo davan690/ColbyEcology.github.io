@@ -13,7 +13,7 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 *(1) Unless otherwise noted, readings will be from Levins and (2) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.
 
-Week | Date  | Topic | Reading* | Assignments | Lecture material
+Week | Date  | Topic | Readings* | Assignments | Lecture material
 :---:|:-----:|--------|---------|---------|-------------|:------:|
 1    | 9/3   | Introduction, dynamic models, unbounded population growth | | Quiz 1 (Q1) on Fri., Problem set 1 (PS1) | |
 2    | 9/10  | | | Q2, PS2 | |
