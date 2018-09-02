@@ -76,13 +76,14 @@ Examination III     | 0.15                    | 0.21                            
 
 ## Laboratory: 0.30 of the course grade
 
-Assignment              | Proportion of course | Proportion of laboratory           |
+Assignment              | Proportion of course | Proportion of laboratory (rounded) |
 :-----------------------|:---------------------|:-----------------------------------|
-Population growth lab   | 0.03                 |                                    |
-Gradient lab            | 0.03                 |                                    |
-Community sapling lab   | 0.10                 |                                    |
-Edge effects lab        | 0.03                 |                                    |
-Decomposition lab       | 0.11                 |                                    |
+Population growth lab   | 0.02                 | 0.07                               |
+Population growth lab   | 0.04                 | 0.13                               |
+Gradient lab            | 0.04                 | 0.13                               |
+Community sapling lab   | 0.04                 | 0.13                               |
+Edge effects lab        | 0.08                 | 0.27                               |
+Decomposition lab       | 0.08                 | 0.27                               |
 
 ## Attendance
 Role will not be taken, but regular attendance is necessary for you to succeed in this course.
