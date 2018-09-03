@@ -33,6 +33,10 @@ MWF, 9&#8212;9:50 AM, in Arey 005
 ## Textbook
 *The Princeton Guide to Ecology*, 2012, edited by Simon A. Levin, published by Princeton University Press
 
+# Website
+[http://colbyecology.github.io](http://colbyecology.github.io)
+
+
 # Learning Goals for Ecology (BI271)
 A. Learn the conceptual framework and vocabulary for the science of ecology.  
 B. Mature in ability to assess scientific literature, with a special emphasis on data interpretation.  
@@ -48,9 +52,6 @@ Introductory material | Definition of ecology, scale and hierarchy, ecological m
 Population ecology    | Density-independent and -dependent growth, stage and spatial population structure, stochasticity, evolution and adaptation, niches; species interactions
 Ecosystem ecology     | Energy, productivity, community effects on energy flows, trophic ecology and foodwebs, disturbance and succession, nutrients cycling (N, P, micronutrients), landscape ecology, metacommunities, global ecology
 
-
-## Website
-[http://colbyecology.github.io](http://colbyecology.github.io)
 
 # Grading
 
@@ -100,7 +101,7 @@ Academic dishonesty is a serious offense against the college. Sanctions for acad
 
 For more on recognizing and avoiding plagiarism, see the library guide: [link](libguides.colby.edu/avoidingplagiarism)
 
-# Colby Statement on Diversity (from [link](https://www.colby.edu/diversity/statement-on-diversity/))
+# Colby Statement on Diversity
 ## Statement on diversity
 Colby College is dedicated to the education of humane, thoughtful, and engaged persons prepared to respond to the challenges of an increasingly diverse and global society and to the issues of justice that arise therein. The College also is committed to fostering a fully inclusive campus community, enriched by persons of different races, gender identities, ethnicities, nationalities, economic backgrounds, ages, abilities, sexual orientations, political beliefs, and spiritual values. We strive to confront and overcome actions and attitudes that discourage the widest possible range of participation in our community, and we seek to deepen our understanding of diversity in our daily relationships and in our dealings as an institution. This statement is intended for use in all College publications, Web applications, and other media where important institutional policies and principles are promulgated.
 ## What diversity means to us
