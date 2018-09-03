@@ -23,8 +23,9 @@ Laboratory phone: 207-859-5744
 Calendar:  
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=colby.edu_t88bur7ih5fsbpcj3ro1jorffk%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FNew_York" style="border-width:0" width="650" height="400" frameborder="0" scrolling="no"></iframe>
 
-### Titles and names
-Students are often curious about how to address their professors.  I am comfortable with Dr. Moore, Professor Moore, or Chris.  What's most important to me is that we create a culture of mutual respect in the classroom.  I will, by default, address you but your first name.  Should you have preferred way of being addressed (Ms. _, Mr. _, nickname, etc.), please communicate that to me.
+### Titles, names, and pronouns
+Students are often curious about how to address their professors.  I am comfortable with Dr. Moore, Professor Moore, or Chris. The pronouns that I go by are he/him. I will be asking for your preferred name and pronoun the first day of class. What's most important to me is that we create a culture of mutual respect in the classroom.
+
 
 ## Meeting dates, times, and location
 MWF, 9&#8212;9:50 AM, in Arey 005
