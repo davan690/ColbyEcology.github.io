@@ -88,8 +88,8 @@ Decomposition lab       | 0.08                 | 0.27                           
 - **Landscape lab** will be an observational experiment and report that will assess how landscape structure affects community composition.
 - **Decomposition lab** will be a manipulative experiment and report that will assess how **FINISH**.
 
-## Attendance
-Role will not be taken, but regular attendance is necessary for you to succeed in this course.
+## Lecture attendance
+Role will not be taken in lecture, but regular attendance is necessary for you to succeed in this course. Attendance in lab is mandatory.
 
 # Academic integrity
 Honesty, integrity, and personal responsibility are cornerstones of a Colby education and provide the foundation for scholarly inquiry, intellectual discourse, and an open and welcoming campus community.  These values are articulated in the Colby Affirmation and are central to this course. You are expected to demonstrate academic honesty in all aspects of this course. If you are clear about course expectations, give credit to those whose work you rely on, and submit your best work, you are highly unlikely to commit an act of academic dishonesty.
@@ -99,6 +99,12 @@ Academic dishonesty includes, but is not limited to: violating clearly stated ru
 Academic dishonesty is a serious offense against the college. Sanctions for academic dishonesty are assigned by an academic review board and may include failure on the assignment, failure in the course, or suspension or expulsion from the College.
 
 For more on recognizing and avoiding plagiarism, see the library guide: [link](libguides.colby.edu/avoidingplagiarism)
+
+# Colby Statement on Diversity (from [link](https://www.colby.edu/diversity/statement-on-diversity/))
+## Statement on diversity
+Colby College is dedicated to the education of humane, thoughtful, and engaged persons prepared to respond to the challenges of an increasingly diverse and global society and to the issues of justice that arise therein. The College also is committed to fostering a fully inclusive campus community, enriched by persons of different races, gender identities, ethnicities, nationalities, economic backgrounds, ages, abilities, sexual orientations, political beliefs, and spiritual values. We strive to confront and overcome actions and attitudes that discourage the widest possible range of participation in our community, and we seek to deepen our understanding of diversity in our daily relationships and in our dealings as an institution. This statement is intended for use in all College publications, Web applications, and other media where important institutional policies and principles are promulgated.
+## What diversity means to us
+Colby has adopted the term “diverse” to describe the kind of community we hope to build and maintain on Mayflower Hill. Our definition of what constitutes diversity may—and probably should—change over time, but when we promote diversity now we are expressing our commitment to an inclusive campus community, enriched by persons of different races, genders, ethnicities, nationalities, economic backgrounds, ages, abilities, sexual orientations, and spiritual values; to ensuring equal opportunity for all who work or study here; to sustaining a climate of civility, mutual respect, and tolerance; to promoting the free and open exchange of ideas, including unpopular ideas; to an open and inclusive governing and decision-making process; and to broadly educating students for life in a complex world.
 
 # Athletic participation
 While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor as soon as possible to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission
