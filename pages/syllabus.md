@@ -107,9 +107,6 @@ Colby College is dedicated to the education of humane, thoughtful, and engaged p
 ## What diversity means to us
 Colby has adopted the term “diverse” to describe the kind of community we hope to build and maintain on Mayflower Hill. Our definition of what constitutes diversity may—and probably should—change over time, but when we promote diversity now we are expressing our commitment to an inclusive campus community, enriched by persons of different races, genders, ethnicities, nationalities, economic backgrounds, ages, abilities, sexual orientations, and spiritual values; to ensuring equal opportunity for all who work or study here; to sustaining a climate of civility, mutual respect, and tolerance; to promoting the free and open exchange of ideas, including unpopular ideas; to an open and inclusive governing and decision-making process; and to broadly educating students for life in a complex world.
 
-# Athletic participation
-While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor as soon as possible to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission
-
 # Sexual misconduct/Title IX statement
 Colby College prohibits and will not tolerate sexual misconduct or gender-based discrimination of any kind. Colby is legally obligated to investigate sexual misconduct (including, but not limited to sexual assault and sexual harassment).
 
@@ -118,6 +115,9 @@ If you wish to speak confidentially about an incident of sexual misconduct, plea
 Students should be aware that faculty members are considered responsible employees; as such, if you disclose an incident of sexual misconduct to a faculty member, they have an obligation to report it to Colby's Title IX Coordinator. "Disclosure" may include communication in-person, via email/phone/text, or through class assignments.
 
 To learn more about sexual misconduct or report an incident, visit [http://www.colby.edu/sexualviolence/](http://www.colby.edu/sexualviolence/).
+
+# Athletic participation
+While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor as soon as possible to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission
 
 {::comment}
 [//]: <link rel="stylesheet" type="text/css" href="mystyle.css">
