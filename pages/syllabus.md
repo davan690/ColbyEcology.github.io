@@ -44,18 +44,9 @@ E. Gain first-hand familiarity with local ecological communities.
 
 Concept               | Topics
 :---------------------|:-------------------------------------------------------------------------
-Introductory material | Definition of ecology, including scale and hierarchy; scientific methods
-Population ecology    | Density-independent and -dependent growth; class and spatial population structure; stochasticity; evolution and adaptation; niches; species interactions
-Ecosystem ecology     | Energy; productivity; community effects on energy flows; trophic ecology and foodwebs; disturbance and succession; nutrients (N, P, micronutriets); landscape ecology; metacommunities; global Ecology
-
-Introduction | Definitions, scientific method, graphing, data interpretation
-Biogeography | Climate, biomes, island-biogeography, species-area relationships
-Evolutionary ecology | Evolution, adaptation, life history
-Population ecology | Population growth and regulation, demography, metapopulations, stochasticity
-Species interactions | Mutualism, competition, predator-prey, host-parasite
-Community ecology | Community structure, food webs, community metrics, succession, metacommunities
-Ecosystem ecology | Energy flow, decomposition, primary and secondary production 
-Nutrient cycles | Global nitrogen, phosphorus, and carbon cycles, human influences, land-atmosphere-ocean interactions 
+Introductory material | Definition of ecology, scale and hierarchy, ecological methodologies
+Population ecology    | Density-independent and -dependent growth, stage and spatial population structure, stochasticity, evolution and adaptation, niches; species interactions
+Ecosystem ecology     | Energy, productivity, community effects on energy flows, trophic ecology and foodwebs, disturbance and succession, nutrients cycling (N, P, micronutrients), landscape ecology, metacommunities, global ecology
 
 
 ## Website
@@ -83,12 +74,19 @@ Examination III     | 0.15                    | 0.21                            
 
 Assignment              | Proportion of course | Proportion of laboratory (rounded) |
 :-----------------------|:---------------------|:-----------------------------------|
-Population growth lab   | 0.02                 | 0.07                               |
+Participation           | 0.02                 | 0.07                               |
 Population growth lab   | 0.04                 | 0.13                               |
 Gradient lab            | 0.04                 | 0.13                               |
-Community sapling lab   | 0.04                 | 0.13                               |
-Edge effects lab        | 0.08                 | 0.27                               |
+Community sampling lab  | 0.04                 | 0.13                               |
+Landscape lab        | 0.08                 | 0.27                               |
 Decomposition lab       | 0.08                 | 0.27                               |
+
+- **Participation** will evaluate your contribution to lab.
+- **Population growth lab** will be a manipulative experiment and report that will assess population growth in a controlled environment.
+- **Gradient lab** will be an observational experiment and report that will assess the relationship between abundance along environmental gradients.
+- **Community sampling lab** will be an observational experiment and report that will assess **FINISH**.
+- **Landscape lab** will be an observational experiment and report that will assess how landscape structure affects community composition.
+- **Decomposition lab** will be a manipulative experiment and report that will assess how **FINISH**.
 
 ## Attendance
 Role will not be taken, but regular attendance is necessary for you to succeed in this course.
