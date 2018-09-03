@@ -24,7 +24,7 @@ Calendar:
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=colby.edu_t88bur7ih5fsbpcj3ro1jorffk%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FNew_York" style="border-width:0" width="650" height="400" frameborder="0" scrolling="no"></iframe>
 
 ### Titles, names, and pronouns
-Students are often curious about how to address their professors.  I am comfortable with Dr. Moore, Professor Moore, or Chris. The pronouns that I go by are he/him. I will be asking for your preferred name and pronoun the first day of class. What's most important to me is that we create a culture of mutual respect in the classroom.
+Students are often curious about how to address their professors. I am comfortable with Dr. Moore, Professor Moore, or Chris. The pronouns that I go by are he/him. I will be asking for your preferred name and pronoun the first day of class on a notecard. Ultimately, what's most important to me is that we create a culture of mutual respect in the classroom, beginning with how we address one another.
 
 
 ## Meeting dates, times, and location
@@ -34,16 +34,20 @@ MWF, 9&#8212;9:50 AM, in Arey 005
 *The Princeton Guide to Ecology*, 2012, edited by Simon A. Levin, published by Princeton University Press
 
 # Learning Goals for Ecology (BI271)
-A. Learn the vocabulary and conceptual framework for the science of ecology.  
+A. Learn the conceptual framework and vocabulary for the science of ecology.  
 B. Mature in ability to assess scientific literature, with a special emphasis on data interpretation.  
 C. Apply concepts and principles to topical ecological issues having implications for policy or management.  
-D. Gain direct experience with generating hypotheses, developing experimental designs and applying statistical analyses to ecological data.  
+D. Gain direct experience with generating hypotheses, developing experimental designs, and applying statistical analyses to ecological data.  
 E. Gain first-hand familiarity with local ecological communities.
 
 ## Concepts to be addressed in Ecology (BI271)
 
-Concept        | Topics
-:--------------|:-------------------------------------------------------------------------
+Concept               | Topics
+:---------------------|:-------------------------------------------------------------------------
+Introductory material | Definition of ecology, including scale and hierarchy; scientific methods
+Population ecology    | Density-independent and -dependent growth; class and spatial population structure; stochasticity; evolution and adaptation; niches; species interactions
+Ecosystem ecology     | Energy; productivity; community effects on energy flows; trophic ecology and foodwebs; disturbance and succession; nutrients (N, P, micronutriets); landscape ecology; metacommunities; global Ecology
+
 Introduction | Definitions, scientific method, graphing, data interpretation
 Biogeography | Climate, biomes, island-biogeography, species-area relationships
 Evolutionary ecology | Evolution, adaptation, life history
