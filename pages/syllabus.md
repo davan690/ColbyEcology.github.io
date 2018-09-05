@@ -44,15 +44,6 @@ C. Apply concepts and principles to topical ecological issues having implication
 D. Gain direct experience with generating hypotheses, developing experimental designs, and applying statistical analyses to ecological data.  
 E. Gain first-hand familiarity with local ecological communities.
 
-## Concepts to be addressed in Ecology (BI271)
-
-Concept               | Topics
-:---------------------|:-------------------------------------------------------------------------
-Introductory material | Definition of ecology, scale and hierarchy, ecological methodologies
-Population ecology    | Density-independent and -dependent growth, stage and spatial population structure, stochasticity, evolution and adaptation, niches; species interactions
-Ecosystem ecology     | Energy, productivity, community effects on energy flows, trophic ecology and foodwebs, disturbance and succession, nutrients cycling (N, P, micronutrients), landscape ecology, metacommunities, global ecology
-
-
 # Grading
 
 ## Lecture: 0.70 of the course grade
@@ -101,11 +92,11 @@ Academic dishonesty is a serious offense against the college. Sanctions for acad
 
 For more on recognizing and avoiding plagiarism, see the library guide: [link](libguides.colby.edu/avoidingplagiarism)
 
-# Colby Statement on Diversity
-## Statement on diversity
-Colby College is dedicated to the education of humane, thoughtful, and engaged persons prepared to respond to the challenges of an increasingly diverse and global society and to the issues of justice that arise therein. The College also is committed to fostering a fully inclusive campus community, enriched by persons of different races, gender identities, ethnicities, nationalities, economic backgrounds, ages, abilities, sexual orientations, political beliefs, and spiritual values. We strive to confront and overcome actions and attitudes that discourage the widest possible range of participation in our community, and we seek to deepen our understanding of diversity in our daily relationships and in our dealings as an institution. This statement is intended for use in all College publications, Web applications, and other media where important institutional policies and principles are promulgated.
-## What diversity means to us
-Colby has adopted the term “diverse” to describe the kind of community we hope to build and maintain on Mayflower Hill. Our definition of what constitutes diversity may—and probably should—change over time, but when we promote diversity now we are expressing our commitment to an inclusive campus community, enriched by persons of different races, genders, ethnicities, nationalities, economic backgrounds, ages, abilities, sexual orientations, and spiritual values; to ensuring equal opportunity for all who work or study here; to sustaining a climate of civility, mutual respect, and tolerance; to promoting the free and open exchange of ideas, including unpopular ideas; to an open and inclusive governing and decision-making process; and to broadly educating students for life in a complex world.
+# Statment on Diversity
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. I expect you to feel challenged and sometimes outside of your comfort zone in this course, but it is my intent to present materials and activities that are inclusive and respectful of all persons, no matter their gender, sexual orientation, disability, age, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. 
+
+I have attempted to avoid scheduling exams during major religious holidays. If, however, I have inadvertently scheduled an exam or major deadline that creates a conflict with your religious observances, please let me know within two weeks of the start of classes so that we can make other arrangements.  Colby College is supportive of the religious practices of its students, faculty, and staff. The College is committed to ensuring that all students are able to observe their religious beliefs without academic penalty.  
+
 
 # Sexual misconduct/Title IX statement
 Colby College prohibits and will not tolerate sexual misconduct or gender-based discrimination of any kind. Colby is legally obligated to investigate sexual misconduct (including, but not limited to sexual assault and sexual harassment).
@@ -116,7 +107,13 @@ Students should be aware that faculty members are considered responsible employe
 
 To learn more about sexual misconduct or report an incident, visit [http://www.colby.edu/sexualviolence/](http://www.colby.edu/sexualviolence/).
 
-# Athletic participation
+# Academic Accommodations
+I am available to discuss academic accommodations that any student with a documented disability may require. Please note that you’ll need to provide a letter from the Dean of Studies Office documenting your approved accommodations. *Please meet with me within two weeks of the start of the semester to make a request for accommodations so that we can work together with the College to make the appropriate arrangements for you.*  Kate McLaughlin, Associate Director of Access and Disability Services (kmclaugh@colby.edu) is the primary contact for accommodations and any questions related to educational testing and documentation.  
+
+Mental health:  I care about my students’ well-being and understand they may face mental health challenges. Students are encouraged to seek support from the College’s available resources, including your advising dean and Counseling Services.  (For immediate care, please call 207-859-4490 and press “0” to reach the on-call counselor.)  I am willing to discuss reasonable accommodations during a crisis, but to fulfill our educational mission, students are expected to adhere to the attendance policy.  Failure to do so because of mental health challenges may require consultation with the Dean of Studies Office.  
+
+
+# Athletic Participation
 While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor as soon as possible to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission
 
 {::comment}
