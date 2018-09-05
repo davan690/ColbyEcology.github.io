@@ -73,7 +73,7 @@ Participation           | 0.02                 | 0.07                           
 Population growth lab   | 0.04                 | 0.13                               |
 Gradient lab            | 0.04                 | 0.13                               |
 Community sampling lab  | 0.04                 | 0.13                               |
-Landscape lab        | 0.08                 | 0.27                               |
+Landscape lab           | 0.08                 | 0.27                               |
 Decomposition lab       | 0.08                 | 0.27                               |
 
 - **Participation** will evaluate your contribution to lab.
@@ -83,7 +83,7 @@ Decomposition lab       | 0.08                 | 0.27                           
 - **Landscape lab** will be an observational experiment and report that will assess how landscape structure affects community composition.
 - **Decomposition lab** will be a manipulative experiment and report that will assess how environmental factors affect the breakdown of organic matter.
 
-## Lecture attendance
+## Attendance
 Role will not be taken in lecture, but regular attendance is necessary for you to succeed in this course. Attendance in lab is mandatory.
 
 # Academic integrity
