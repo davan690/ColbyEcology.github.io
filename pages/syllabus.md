@@ -79,9 +79,9 @@ Decomposition lab       | 0.08                 | 0.27                           
 - **Participation** will evaluate your contribution to lab.
 - **Population growth lab** will be a manipulative experiment and report that will assess population growth in a controlled environment.
 - **Gradient lab** will be an observational experiment and report that will assess the relationship between abundance along environmental gradients.
-- **Community sampling lab** will be an observational experiment and report that will assess **FINISH**.
+- **Community sampling lab** will be an observational experiment and report that will learn how to estimate the number of species in an area.
 - **Landscape lab** will be an observational experiment and report that will assess how landscape structure affects community composition.
-- **Decomposition lab** will be a manipulative experiment and report that will assess how **FINISH**.
+- **Decomposition lab** will be a manipulative experiment and report that will assess how environmental factors affect the breakdown of organic matter.
 
 ## Lecture attendance
 Role will not be taken in lecture, but regular attendance is necessary for you to succeed in this course. Attendance in lab is mandatory.
