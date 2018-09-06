@@ -11,9 +11,10 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 ---
 
-*(1) Unless otherwise noted, readings will be from Levins and (2) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.
+<sup>1</sup>(1) Unless otherwise noted, readings will be from Levins and (2) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.
+<sup>2</sup?(1) Quizzes will be given on Fridays, (2) Problem sets will be assigned on the Friday they are listed below, and (3) Problem sets are due one week (Fridays) from when they are assigned.
 
-Week | Date  | Topics | Readings | Assignments| Lecture material
+Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture material
 :---:|:-----:|--------|---------|---------|-------------|
 1    | 9/3   | Introduction, dynamic models, unbounded population growth | | Quiz 1 (Q1) on Fri., Problem set 1 (PS1) | [Lecture 1(L1)](https://drive.google.com/open?id=1pApFDtMNTXzmT27EkLN2nmTKwJ-g05WQ) ([L1 as pdf](https://drive.google.com/open?id=1s294Wmjbu7-7-yecpZcFGm95hBzTyzBH)) |
 2    | 9/10  | | | Q2, PS2 | |
