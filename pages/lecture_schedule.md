@@ -11,8 +11,8 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 ---
 
-<sup>1</sup>(1) Unless otherwise noted, readings will be from Levins and (2) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.
-<sup>2</sup?(1) Quizzes will be given on Fridays, (2) Problem sets will be assigned on the Friday they are listed below, and (3) Problem sets are due one week (Fridays) from when they are assigned.
+<sup>1</sup>(1) Unless otherwise noted, readings will be from Levins and (2) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.  
+<sup>2</sup>(1) Quizzes will be given on Fridays, (2) Problem sets will be assigned on the Friday they are listed below, and (3) Problem sets are due one week (Fridays) from when they are assigned.
 
 Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture material
 :---:|:-----:|--------|---------|---------|-------------|
