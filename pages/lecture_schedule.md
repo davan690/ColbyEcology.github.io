@@ -13,6 +13,7 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 <sup>1</sup>(1) Unless otherwise noted, readings will be from Levins and (2) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.  
 <sup>2</sup>(1) Quizzes will be given on Fridays, (2) Problem sets will be assigned on the Friday they are listed below, and (3) Problem sets are due one week (Fridays) from when they are assigned.
+<sup>3</sup>Exams will be given in the evenings between 7 and 9 PM on either of the two offered days (your choice).
 
 Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture material
 :---:|:-----:|--------|---------|---------|-------------|
@@ -24,13 +25,13 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 6    | 10/8  | | | Q6, PS6 | |
 7    | 10/15 | | | Q7, PS7 | |
 8    | 10/22 | Ecosystems and large-scale ecology | | Q8, PS8 | |
-     | 10/22 | **Exam I** | | | |
+     | 10/22/23<sup>3</sup> | **Exam I** | | | |
 9    | 10/29 | | | Q9, PS9 | |
 10   | 11/5  | | | Q10, PS10 | |
 11   | 11/12 | | | Q11, PS11 | |
 12   | 11/19 | | | | |
 13   | 11/26 | | | Q12, PS12 | |
-     | 11/28 | **Exam II** | | | |
+     | 11/28/29<sup>3</sup> | **Exam II** | | | |
 14   | 12/3  | | | | |
      | 12/13 @ 9 AM | **Exam III** | | | |
 
