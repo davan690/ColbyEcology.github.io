@@ -34,7 +34,8 @@ Students are often curious about how to address their professors. I am comfortab
 MWF, 9&#8212;9:50 AM, in Arey 005
 
 # Textbook
-*The Princeton Guide to Ecology*, 2012, edited by Simon A. Levin, published by Princeton University Press
+*The Princeton Guide to Ecology*, 2012, edited by Simon A. Levin, published by Princeton University Press  
+Freely access book through Colby Library: [link](http://cbbcat.net/record=b3551477~S19)
 
 # Website
 [http://colbyecology.github.io](http://colbyecology.github.io)
