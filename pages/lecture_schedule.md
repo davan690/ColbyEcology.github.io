@@ -18,7 +18,7 @@ Colby College is supportive of the religious practices of its students, faculty,
 Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture material
 :---:|:-----:|--------|---------|---------|-------------|
 1    | 9/3   | Introduction, dynamic models, unbounded population growth | | Quiz 1 (Q1) on Fri., Problem set 1 ([PS1](https://drive.google.com/open?id=1wO9kN-QS_zfEJRi3iizLW2nQsQpgtXC3NTPZG3mxQM8)) | [Lecture 1 (L1)](https://drive.google.com/open?id=1pApFDtMNTXzmT27EkLN2nmTKwJ-g05WQ) ([L1 as pdf](https://drive.google.com/open?id=1s294Wmjbu7-7-yecpZcFGm95hBzTyzBH)) |
-2    | 9/10  | | | Q2, PS2 | |
+2    | 9/10  | | Part II Introduction, II.3.1–2 | Q2, PS2 | |
 3    | 9/17  | Population regulation | | Q3, PS3 | |
 4    | 9/24  | | | Q4, PS4 | |
 5    | 10/1  | | | Q5, PS5 | |
