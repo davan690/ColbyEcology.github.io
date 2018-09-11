@@ -26,19 +26,18 @@ Calendar:
 Mondays, 1–3 PM  
 Wednesdays, 10 AM–noon
 
+## Titles, names, and pronouns
+Students are often curious about how to address their professors. I am comfortable with Dr. Moore, Professor Moore, or Chris. The pronouns that I go by are he/him. I will be asking for your preferred name and pronoun the first day of class on a notecard. Ultimately, what's most important to me is that we create a culture of mutual respect in the classroom, beginning with how we address one another.
+
 # Ecology Team contact information
 
-Name            | Lab section(s) | email           | Office   |
+Name            | Lab section(s) | Email           | Office   |
 :---------------|:---------------|:----------------|:---------|
 Justin Becknell | C1             | justin.becknell | Olin 224 |
 Abby Pearson    | A2, B2         | abby.pearson    | Olin 242 |
 Sarah Staffiere | A1, B1         | sarah.staffiere | Olin 305 |
 
-## Titles, names, and pronouns
-Students are often curious about how to address their professors. I am comfortable with Dr. Moore, Professor Moore, or Chris. The pronouns that I go by are he/him. I will be asking for your preferred name and pronoun the first day of class on a notecard. Ultimately, what's most important to me is that we create a culture of mutual respect in the classroom, beginning with how we address one another.
-
-
-# Meeting dates, times, and location
+# Meeting dates, times, and location for Lecture B
 MWF, 9&#8212;9:50 AM, in Arey 005
 
 # Textbook
