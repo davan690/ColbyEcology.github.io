@@ -12,16 +12,16 @@ Colby College is supportive of the religious practices of its students, faculty,
 Week | Date   | Lab | Assignments
 :---:|--------|-----|---------
 1    | 9/3    | **No lab** |
-2    | 9/10   | Lab orientation, begin population growth experiment, begin decomposition experiment |
-3    | 9/17   | Gradients and abundance lab on the coast |
-4    | 9/24   | Analysis of gradients and abundance lab on the coast |
-5    | 10/1   | Population growth experiment analysis |
+2    | 9/10   | Lab orientation, begin Population Growth Experiment, begin Decomposition Experiment |
+3    | 9/17   | Environmental Gradients Experiment on the coast |
+4    | 9/24   | Analysis of Environmental Gradients Experiment |
+5    | 10/1   | Population Growth Experiment analysis |
 6    | 10/8   | Bog lab |
 7    | 10/15  | **No lab** |
 8    | 10/22  | Bog lab analysis |
-9    | 10/29  | Edge effects experiment |
-10   | 11/5   | Edge effects experiment analysis|
-11   | 11/12  | Finish decomposition experiment & analysis part I|
+9    | 10/29  | Edge Effects experiment |
+10   | 11/5   | Edge Effects experiment analysis|
+11   | 11/12  | Finish Decomposition Experiment, and Decomposition Experiment analysis part I|
 12   | 11/19  | **No lab** |
-13   | 11/26  | Decomposition experiment analysis part II |
-14   | 12/3   | Decomposition experiment presentation |
+13   | 11/26  | Decomposition Experiment analysis part II |
+14   | 12/3   | Decomposition Experiment presentation |
