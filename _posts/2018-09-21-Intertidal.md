@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ecology students visit the coast!
-feature-img: "assets/img/Coast/CoastA"
+feature-img: "assets/img/features/dawn-dusk-horizon-60100_edit.jpg"
 thumbnail: 
 tags: [Intertidal, Abundance, Gradients]
 ---
@@ -12,12 +12,12 @@ It was a beautiful day out and we enjoyed the gorgeous coast and the other critt
 
 Here are a few photos from the trip of students hard at work:
 
-![CoastA](assets/img/Coast/CoastA)
+![CoastA](assets/img/Coast/CoastA.jpg)
 
-![CoastB](assets/img/Coast/CoastB)
+![CoastB](assets/img/Coast/CoastB.jpg)
 
-![CoastC](assets/img/Coast/CoastC)
+![CoastC](assets/img/Coast/CoastC.jpg)
 
-![CoastD](assets/img/Coast/CoastD)
+![CoastD](assets/img/Coast/CoastD.jpg)
 
-![CoastE](assets/img/Coast/CoastE)
+![CoastE](assets/img/Coast/CoastE.jpg)
