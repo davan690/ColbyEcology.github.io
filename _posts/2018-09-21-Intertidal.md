@@ -12,12 +12,12 @@ It was a beautiful day out and we enjoyed the gorgeous coast and the other critt
 
 Here are a few photos from the trip of students hard at work:
 
-[CoastA](assets/img/Coast/CoastA)
+![CoastA](assets/img/Coast/CoastA)
 
-[CoastB](assets/img/Coast/CoastB)
+![CoastB](assets/img/Coast/CoastB)
 
-[CoastC](assets/img/Coast/CoastC)
+![CoastC](assets/img/Coast/CoastC)
 
-[CoastD](assets/img/Coast/CoastD)
+![CoastD](assets/img/Coast/CoastD)
 
-[CoastE](assets/img/Coast/CoastE)
+![CoastE](assets/img/Coast/CoastE)
