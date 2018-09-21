@@ -11,13 +11,13 @@ In the third week of the semester, Ecology Lab students went to Reid State Park 
 It was a beautiful day out and we enjoyed the gorgeous coast and the other critters we discovered while sampling. These included Double-breasted Cormorants flying in a "V", crabs, hermit crabs, tunicates, periwinkle snails (2 species), dog whelks, collembola, red algae, and green algae among others.
 
 Here are a few photos from the trip of students hard at work:
-7
-![CoastA](assets/img/Coast/CoastA.jpg)
+
+![CoastA](/assets/img/Coast/CoastA.jpg)
 
 ![CoastB](/assets/img/Coast/CoastB.jpg)
 
-![CoastC]("/assets/img/Coast/CoastC.jpg"")
+![CoastC](/assets/img/Coast/CoastC.jpg)
 
-![CoastD](https://ColbyEcology.github.io/assets/img/Coast/CoastD.jpg)
+![CoastD](/assets/img/Coast/CoastD.jpg)
 
-![CoastE](assets/img/Coast/CoastE.jpg)
+![CoastE](/assets/img/Coast/CoastE.jpg)
