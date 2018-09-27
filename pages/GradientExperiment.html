@@ -306,7 +306,7 @@ dev.off()</code></pre>
 <h3><span class="header-section-number">4.4.2</span> Creating new columns</h3>
 <p>Creating new columns on a data frame is easy. You must be adding a column with the same number of rows as the data frame, then type the data frame name, a dollar sign, the new column name, the assignment operator, followed by the data. For example, to add a new column with a bunch of stuff in it, you’d type:</p>
 <pre class="r"><code># This literally creates a set of the word &quot;Stuff&quot;, with the number of times being the number of rows in your data
-grad$NewData &lt;- rep(x = &quot;Stuff&quot;, times = now(grad))</code></pre>
+grad$NewData &lt;- rep(x = &quot;Stuff&quot;, times = nrow(grad))</code></pre>
 <p>Now, when you look at the names of your columns (e.g., <code>colnames(grad)</code>) you’ll see that one called <code>NewData</code> has appeared. Index it and you’ll see all of the “Stuff” you created.</p>
 </div>
 <div id="indexing-rows" class="section level3">
