@@ -7,14 +7,16 @@ tags: [Perkins Arboretum, Decomposers, Fungi]
 ---
 
 
-Here are a few photos from the trip of students hard at work:
+[Arb stuff]:
 
-![CoastA](/assets/img/Arb/RedMaple.jpg)
+![RedMaple](/assets/img/Arb/RedMaple.jpg)
 
-![CoastB](/assets/img/Arb/Amanita.jpg)
+![Amanita](/assets/img/Arb/Amanita.jpg)
 
-![CoastC](/assets/img/Arb/ViscidVioletCort.jpg)
+![SpikyFungi](/assets/img/Arb/SpikyFungi.jpg)
 
-![CoastD](/assets/img/Arb/Teaberry.jpg)
+![ViscidVioletCort](/assets/img/Arb/ViscidVioletCort.jpg)
 
-![CoastE](/assets/img/Arb/EasternBombus.jpg)
+![Teaberry](/assets/img/Arb/Teaberry.jpg)
+
+![EasternBombus](/assets/img/Arb/EasternBombus.jpg)
