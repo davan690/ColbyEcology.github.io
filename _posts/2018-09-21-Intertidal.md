@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ecology students visit the coast!
+title: Ecology students visit the coast
 feature-img: "assets/img/features/dawn-dusk-horizon-60100_edit.jpg"
 thumbnail: 
 tags: [Intertidal, Abundance, Gradients]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fall Fungi in the Perkins Arboretum!
+title: Fall Fungi in the Perkins Arboretum
 feature-img: "assets/img/features/autumn-colors-1361908_edit.jpg"
 thumbnail: 
 tags: [Perkins Arboretum, Decomposers, Fungi]
