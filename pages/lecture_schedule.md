@@ -23,7 +23,7 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 4    | 9/24  | | I.6, II.4, 11.2.3–4, 1.10 | Q4, [PS4](https://drive.google.com/open?id=18FEmE3Ek5vfct29Ff7oEKegKe-9HzKfMzr5HI3AO6iY), [PS4 Key](https://drive.google.com/open?id=15SnSSo-Q-yI0jX-GpOikhDuYhdxhMeD14gHbTd94mJQ) | [StructuredPopsLec](https://drive.google.com/open?id=1DFTmp7uNCuMgE-SZiw_qwPMljrH4PUB5RmzHahBOiXg), [Space&StochasLec](https://drive.google.com/open?id=1GQ9sF-JPjHKauyUfss2DlhpaqN8o3UftkYHj1odtJAE) [LifeHistLec](https://drive.google.com/open?id=1VV-d7dOwzD3IaDARPTRNJDP6VnBr9zgz4VtGSiR6tfU)|
 5    | 10/1  | | I.1, I.12| Q5, [PS5](https://drive.google.com/open?id=1ZCFc769NRIr2AcODB3YHdekwoE-Q_0txEZKVrmgc8XU), [PS5 Key](https://drive.google.com/open?id=1Ti6Ms3dlhJzBE9RNu5b6-fxnp53LVFtBVJTxrQw0d3I) | [NichesLec](https://drive.google.com/open?id=1DAfFPTsyPavZTAiw43U4sHEomd3ATOgvCtgGFTrlbp8), [GeoDistLec](https://drive.google.com/open?id=1zHEiFQZ2x1nG1VCFrOQsrtt-FWWR9LBAQFAzQ3qXf8Q), [Neutralism&PhasePlanesLec](https://drive.google.com/open?id=1OJsvlYL__ou4zQ1jYIpQnIEXEX-PnUpk)|
 6    | 10/8  | | II.11, II.6, II.7.1–3| Q6, [PS6](NoPSet6.html) | [MutualismLec](https://drive.google.com/open?id=1go0qrBAUxh311oKOPM8rGKgT4O_oiUW0flhbLPhgFxc), [CompetitionLec](https://drive.google.com/open?id=1P_-_UEh3juuqA3-t6bY_MrMt7r2DH3UY-NsxGB-dQSo) |
-7    | 10/15 | | | Q7, PS7 | |
+7    | 10/15 | | Review for exam | Q7, PS7 | [EnemyVictimLec](https://drive.google.com/open?id=1zMQA0JY2aYPwve5vAOreWIExRyhQ9cKzjiJmQ9_N_nQ) |
 8    | 10/22 | Ecosystems and large-scale ecology | | Q8, PS8 | |
      | 10/22/23<sup>3</sup> | **Exam I** | | | |
 9    | 10/29 | | | Q9, PS9 | |
