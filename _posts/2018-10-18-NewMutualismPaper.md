@@ -13,7 +13,7 @@ To out knowledge, there were no *a prior* hypotheses on how the number of specie
 We ended up identifying all plants and animals in North America north of Mexico engaged in seed-dispersal mutualisms and compiling data on how many of each were found where. We identified 88 animal species (65 birds and 23 mammals), and [my previous work](https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12502) identified 1010 plant species dispersed by fruit-eating mammals and birds (frugivory) and 272 species dispersed by scatter-hoarding rodents and birds.
 
 The most striking finding we had was also totally unexpected—there was s mismatch in the distributions of species engaged in seed dispersal mutualisms:
-![MismatchMap](/assets/misc/EcographyMap.png)
+![MismatchMap](/assets/misc/EcographyMap.jpg)
 The left column is a map of species richness of plants whose seeds are dispersed by animals, the center column is a map of species richness of animals who disperse plant seeds, and the column on the right is the difference between the two. Notice that plant species richness is the greatest in the eastern United States and that animal species richness is the greatest in the south/southwest. This was totally surprising and perplexing.
 
 We hope that this work will encourage others to examine other mutualisms at large spatial scales and attempt to see if this mismatch is the rule or an exception.
