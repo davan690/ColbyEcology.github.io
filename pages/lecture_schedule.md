@@ -25,7 +25,7 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 6    | 10/8  | | II.11, II.6, II.7.1–3| Q6, [PS6](NoPSet6.html) | [MutualismLec](https://drive.google.com/open?id=1go0qrBAUxh311oKOPM8rGKgT4O_oiUW0flhbLPhgFxc), [CompetitionLec](https://drive.google.com/open?id=1P_-_UEh3juuqA3-t6bY_MrMt7r2DH3UY-NsxGB-dQSo) |
 7    | 10/15 | | Review for exam | Q7, PS7 | [EnemyVictimLec](https://drive.google.com/open?id=1zMQA0JY2aYPwve5vAOreWIExRyhQ9cKzjiJmQ9_N_nQ) |
 8    | 10/22 | Ecosystems and community ecology | III.1  | Q8, PS8 | [IntroEcosys&Comms](https://drive.google.com/open?id=1dIjnLdP9WF-4cleJY7QFJfYG6ZUjZik5CzNq2NbjeW8) |
-     | 10/22/23<sup>3</sup> | **Exam I** | | | |
+&nbsp; | 10/22/23<sup>3</sup> | **Exam I** | | | |
 9    | 10/29 | | | Q9, PS9 | |
 10   | 11/5  | | | Q10, PS10 | |
 11   | 11/12 | | | Q11, PS11 | |
