@@ -31,9 +31,9 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 11   | 11/12 | | | Q11, PS11 | |
 12   | 11/19 | | | | |
 13   | 11/26 | | | Q12, PS12 | |
-     | 11/28/29<sup>3</sup> | **Exam II** | | | |
+&nbsp; | 11/28/29<sup>3</sup> | **Exam II** | | | |
 14   | 12/3  | | | | |
-     | 12/13 @ 9 AM | **Exam III** | | | |
+&nbsp; | 12/13 @ 9 AM | **Exam III** | | | |
 
 <!---
 1  | 9/5   | W | | | | | |
