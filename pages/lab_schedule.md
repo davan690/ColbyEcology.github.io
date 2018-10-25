@@ -18,7 +18,7 @@ Week | Date   | Lab | Assignments
 5    | 10/1   | Population Growth Experiment analysis | [Population growth instructions](/PopGrowth.html), [ParameterSheet](https://docs.google.com/spreadsheets/d/16WxgOi0buqRHOpZQnfrSJjYXGkUxld6MXGvG2xXcQ1Y/edit?usp=sharing), [SuggestedIntroPapers](https://drive.google.com/drive/folders/1HZrgpSyyu3J_XS9zfprJjfvHySfC606J?usp=sharing)
 6    | 10/8   | Bog lab |
 7    | 10/15  | **No lab** |
-8    | 10/22  | Bog lab analysis |
+8    | 10/22  | Bog lab analysis | [MorphOfCompetitionWorksheet](https://drive.google.com/open?id=15APlh8Re4odfQyVqiPLy2iWLThQ23oTxjcM8ENkJ1Pw), [AnnotatedBib](https://drive.google.com/open?id=1RLqFyKETRettvv02JWS7bJcG2J9BxPG3cNKqhVZb76s), [PapersForAnnotatedBib](https://drive.google.com/open?id=1ly8QI4kq3kD3qtRw-xczFYXlrjL-32bq)
 9    | 10/29  | Edge Effects experiment |
 10   | 11/5   | Edge Effects experiment analysis|
 11   | 11/12  | Finish Decomposition Experiment, and Decomposition Experiment analysis part I|
