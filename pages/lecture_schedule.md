@@ -25,8 +25,8 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 6    | 10/8  | | II.11, II.6, II.7.1–3| Q6, [PS6](NoPSet6.html) | [MutualismLec](https://drive.google.com/open?id=1go0qrBAUxh311oKOPM8rGKgT4O_oiUW0flhbLPhgFxc), [CompetitionLec](https://drive.google.com/open?id=1P_-_UEh3juuqA3-t6bY_MrMt7r2DH3UY-NsxGB-dQSo) |
 7    | 10/15 | | Review for exam | Q7, [PS7](https://drive.google.com/open?id=18KP-SbdzoLiYJxz65KuZgoXs5h5e_TF2NnuxN49jgw4), [PS7 Key](https://drive.google.com/open?id=1X_3nHuhjY4EN-fEgs68H5TiBj0VFs47-zJ_pPceSCs8) | [EnemyVictimLec](https://drive.google.com/open?id=1zMQA0JY2aYPwve5vAOreWIExRyhQ9cKzjiJmQ9_N_nQ) |
 8    | 10/22 | Ecosystems and community ecology | III.1  | Q8, [PS8](https://drive.google.com/open?id=1b42MPPyE9pLyQ34Dl7mA4fqFHx7YNQqESHQuWGlzQGE) | [IntroEcosys&Comms](https://drive.google.com/open?id=1dIjnLdP9WF-4cleJY7QFJfYG6ZUjZik5CzNq2NbjeW8), [Bio&CommDivLec](https://drive.google.com/open?id=1jU63m_HAfLZvDJ2Zvwun-Tqv4lTeYsAbyqP8KFoqSng)  |
-&nbsp; | 10/22/23<sup>3</sup> | **Exam I** | | | [StrucDive&Webs](https://drive.google.com/open?id=1KEVBEKncd_UqQ4wA-RF1k4qgJ0iwOcVRNxVXBSFGE4U) |
-9    | 10/29 | III.7, III.8, III.6 | | Q9, PS9 | |
+&nbsp; | 10/22/23<sup>3</sup> | **Exam I** | | | |
+9    | 10/29 | III.7, III.6 | | Q9, PS9 | [StrucDive&Webs](https://drive.google.com/open?id=1KEVBEKncd_UqQ4wA-RF1k4qgJ0iwOcVRNxVXBSFGE4U) |
 10   | 11/5  | | | Q10, PS10 | |
 11   | 11/12 | | | Q11, PS11 | |
 12   | 11/19 | | | | |
