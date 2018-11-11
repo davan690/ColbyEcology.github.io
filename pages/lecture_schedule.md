@@ -27,7 +27,7 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 8    | 10/22 | Ecosystems and community ecology | III.1  | Q8, [PS8](https://drive.google.com/open?id=1b42MPPyE9pLyQ34Dl7mA4fqFHx7YNQqESHQuWGlzQGE), [PS8 Key](https://drive.google.com/open?id=13uBW2sTQFBAk6LqH5ckXMQMRRMxngmclcUzeAfYhqMA) | [IntroEcosys&CommsLec](https://drive.google.com/open?id=1dIjnLdP9WF-4cleJY7QFJfYG6ZUjZik5CzNq2NbjeW8), [Bio&CommDivLec](https://drive.google.com/open?id=1jU63m_HAfLZvDJ2Zvwun-Tqv4lTeYsAbyqP8KFoqSng)  |
 &nbsp; | 10/22/23<sup>3</sup> | **Exam I** | | | |
 9    | 10/29 | III.7, III.6 | | Q9, [PS9](https://drive.google.com/open?id=1kL7QEtWAkMqBhhVdMBRolQhtvUgYIAQipHKYD1rjP6k), [PS9 data](https://drive.google.com/open?id=1V8Aoee-3ralescwjSuUP4lbeKL6B4gKo), [PS13](https://drive.google.com/open?id=1GQFPERSJDjrD_8_-OvVXyiiRYXU7-GEeTDLV2FZHaBU) | [StrucDiv&WebsLec](https://drive.google.com/open?id=1KEVBEKncd_UqQ4wA-RF1k4qgJ0iwOcVRNxVXBSFGE4U), [TrophicEcoLec](https://drive.google.com/open?id=1IIfkcM_Fd5AzsL1aYaIvDUxM942lquHU8RxSUr8-WN0) |
-10   | 11/5  | III.9, III.11, III.12| | Q10, PS10 | |
+10   | 11/5  | III.9, III.11, III.12| | Q10, PS10 | [ProductivityLec](https://drive.google.com/open?id=1uqz9awqO74fzogLTFW8vVC4k9emQcTcQJFsMNyMg0nI) |
 11   | 11/12 | | | Q11, PS11 | |
 12   | 11/19 | | | | |
 13   | 11/26 | | | Q12, PS12 | |
