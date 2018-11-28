@@ -28,9 +28,9 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 &nbsp; | 10/22/23<sup>3</sup> | **Exam I** | | | |
 9    | 10/29 | | III.7, III.6 | Q9, [PS9](https://drive.google.com/open?id=1kL7QEtWAkMqBhhVdMBRolQhtvUgYIAQipHKYD1rjP6k), [PS9 data](https://drive.google.com/open?id=1V8Aoee-3ralescwjSuUP4lbeKL6B4gKo), [PS9 Key](https://drive.google.com/open?id=1CqKvtNtooxm4bVBSCc2JFWmaBhySObG4tcy_O9kpNsI), [PS13](https://drive.google.com/open?id=1GQFPERSJDjrD_8_-OvVXyiiRYXU7-GEeTDLV2FZHaBU) | [StrucDiv&WebsLec](https://drive.google.com/open?id=1KEVBEKncd_UqQ4wA-RF1k4qgJ0iwOcVRNxVXBSFGE4U), [TrophicEcoLec](https://drive.google.com/open?id=1IIfkcM_Fd5AzsL1aYaIvDUxM942lquHU8RxSUr8-WN0) |
 10   | 11/5  | | III.9, III.11, III.12 | Q10, [PS10](https://drive.google.com/open?id=1soBW0WYEQb1XMOVyJBaMtypeR4FDFSUmkR_kFUTkmd4), [PS10 Key](https://drive.google.com/open?id=1E0_D8wkv4F1W84_PdS9ld4F-RmP2d-RRV5S8SFAvmWA) | [ProductivityLec](https://drive.google.com/open?id=1uqz9awqO74fzogLTFW8vVC4k9emQcTcQJFsMNyMg0nI) |
-11   | 11/12 | | III.10 | Q11, PS11 | [NitrogenLec](https://drive.google.com/open?id=1BISl0ENhJUMuKWFZDFAPodrvj-y3KP-8nlJwBV7BiOM), [PhosphorusLec](https://drive.google.com/open?id=1_7Q3AWcfF4YZIWDqFs2iQ1BrKE8PFW2GYfjFQE1ZIO0) |
+11   | 11/12 | | III.10 | Q11, <s>PS11</s> | [NitrogenLec](https://drive.google.com/open?id=1BISl0ENhJUMuKWFZDFAPodrvj-y3KP-8nlJwBV7BiOM), [PhosphorusLec](https://drive.google.com/open?id=1_7Q3AWcfF4YZIWDqFs2iQ1BrKE8PFW2GYfjFQE1ZIO0) |
 12   | 11/19 | |  V.5 | | [DisturbanceLec](https://drive.google.com/open?id=1euZxKif3urvHHzHGTul2YZ6dqcmtLnpHiotao3wakpU) |
-13   | 11/26 | | | Q12, PS12 | |
+13   | 11/26 | | III.4, III.17 | Q12, PS11&12 | |
 &nbsp; | 11/28/29<sup>3</sup> | **Exam II** | | | |
 14   | 12/3  | | | | |
 &nbsp; | 12/13 @ 9 AM | **Exam III** | | | |
