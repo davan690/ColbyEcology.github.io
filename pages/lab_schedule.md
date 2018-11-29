@@ -23,5 +23,5 @@ Week | Date   | Lab | Assignments
 10   | 11/5   | Edge Effects experiment analysis| [tree data](https://drive.google.com/open?id=14qTjtmWFR1ps41BNBYHFafc8AHlfDmux), [site data](https://drive.google.com/open?id=150aFoXsmC1rlSyXf8p0RyORblNqk1cMQ)
 11   | 11/12  | Finish Decomposition Experiment, and Decomposition Experiment analysis part I| [DecompDataEntry](https://docs.google.com/spreadsheets/d/11VHZ0cqQREkSajZk0iK1hqgD3rJXC3_eeiDGHsRpTkg/edit?usp=sharing)
 12   | 11/19  | **No lab** |
-13   | 11/26  | Decomposition Experiment analysis part II |
-14   | 12/3   | Decomposition Experiment presentation |
+13   | 11/26  | Decomposition Experiment analysis part II | [Decomposition experiment presentation topics](/DecompTopics.md)
+14   | 12/3   | Decomposition Experiment presentation | 
