@@ -24,4 +24,4 @@ Week | Date   | Lab | Assignments
 11   | 11/12  | Finish Decomposition Experiment, and Decomposition Experiment analysis part I| [DecompDataEntry](https://docs.google.com/spreadsheets/d/11VHZ0cqQREkSajZk0iK1hqgD3rJXC3_eeiDGHsRpTkg/edit?usp=sharing)
 12   | 11/19  | **No lab** |
 13   | 11/26  | Decomposition Experiment analysis part II | [Decomposition experiment presentation topics](/DecompTopics.md), [Class decomposition data](https://drive.google.com/open?id=1au1H28HmWVhfJzP9OIF_F3H7K26l2XbZ), [Class parameter estimates](https://drive.google.com/open?id=1mA7TFNFNioUVyUzU3ipzYXpvLPakKxWr)
-14   | 12/3   | Decomposition Experiment presentation | 
+14   | 12/3   | Decomposition Experiment presentation |
