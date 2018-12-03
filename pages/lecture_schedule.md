@@ -32,7 +32,7 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 12   | 11/19 | |  V.5 | | [DisturbanceLec](https://drive.google.com/open?id=1euZxKif3urvHHzHGTul2YZ6dqcmtLnpHiotao3wakpU) |
 13   | 11/26 | | III.4, III.17 | Q12, [PS11&12](https://drive.google.com/open?id=1TvM51CV6IndQwV0iRZJvzjxvOTxsmTg_W3T0VVGiQEo) | [SuccessionLec](https://drive.google.com/open?id=1tYrQWhG5eHaYsxhQ7AZMdNvl5cHmE0SNO0fLSIzt8r4) |
 &nbsp; | 11/28/29<sup>3</sup> | **Exam II** | | | |
-14   | 12/3  | | | | [MacroEcoLec](https://drive.google.com/open?id=1tYrQWhG5eHaYsxhQ7AZMdNvl5cHmE0SNO0fLSIzt8r4) |
+14   | 12/3  | | III.16 | | [MacroEcoLec](https://drive.google.com/open?id=1bb9YFbdkx1-WlXKHuIIqPIo6TBHp4n6rms88RJh9xAM) |
 &nbsp; | 12/13 @ 9 AM | **Exam III** | | | |
 
 <!---
