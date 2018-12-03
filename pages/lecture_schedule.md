@@ -30,9 +30,9 @@ Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture 
 10   | 11/5  | | III.9, III.11, III.12 | Q10, [PS10](https://drive.google.com/open?id=1soBW0WYEQb1XMOVyJBaMtypeR4FDFSUmkR_kFUTkmd4), [PS10 Key](https://drive.google.com/open?id=1E0_D8wkv4F1W84_PdS9ld4F-RmP2d-RRV5S8SFAvmWA) | [ProductivityLec](https://drive.google.com/open?id=1uqz9awqO74fzogLTFW8vVC4k9emQcTcQJFsMNyMg0nI) |
 11   | 11/12 | | III.10 | Q11, <s>PS11</s> | [NitrogenLec](https://drive.google.com/open?id=1BISl0ENhJUMuKWFZDFAPodrvj-y3KP-8nlJwBV7BiOM), [PhosphorusLec](https://drive.google.com/open?id=1_7Q3AWcfF4YZIWDqFs2iQ1BrKE8PFW2GYfjFQE1ZIO0) |
 12   | 11/19 | |  V.5 | | [DisturbanceLec](https://drive.google.com/open?id=1euZxKif3urvHHzHGTul2YZ6dqcmtLnpHiotao3wakpU) |
-13   | 11/26 | | III.4, III.17 | Q12, [PS11&12](https://drive.google.com/open?id=1TvM51CV6IndQwV0iRZJvzjxvOTxsmTg_W3T0VVGiQEo) | |
+13   | 11/26 | | III.4, III.17 | Q12, [PS11&12](https://drive.google.com/open?id=1TvM51CV6IndQwV0iRZJvzjxvOTxsmTg_W3T0VVGiQEo) | [SuccessionLec](https://drive.google.com/open?id=1tYrQWhG5eHaYsxhQ7AZMdNvl5cHmE0SNO0fLSIzt8r4) |
 &nbsp; | 11/28/29<sup>3</sup> | **Exam II** | | | |
-14   | 12/3  | | | | |
+14   | 12/3  | | | | [MacroEcoLec](https://drive.google.com/open?id=1tYrQWhG5eHaYsxhQ7AZMdNvl5cHmE0SNO0fLSIzt8r4) |
 &nbsp; | 12/13 @ 9 AM | **Exam III** | | | |
 
 <!---
