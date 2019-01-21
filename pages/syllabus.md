@@ -6,7 +6,7 @@ feature-img: "assets/img/features/forest-1390865_edit.jpg"
 tags: [Syllabus, Contact, Policies]
 ---
 
-Ecology (BI271) Lecutre B, 4 credit hours, fall semester 2018
+Ecology (BI271) Lecutre C, 4 credit hours, fall semester 2018
 
 Ecology is the study of the spatial and temporal patterns of the distribution and abundance of organisms, including causes and consequences.  Studying these patterns provides us with the scientific foundation for understanding natural processes and environmental problems. This course will examine ecological interactions at a wide range of scales from the molecular level, through individuals, populations, communities, ecosystems, and ultimately to the biosphere. We will study how these interactions produce the patterns and processes we observe around the world. In the field-based laboratory we will learn to generate testable ecological hypotheses, develop experimental designs to test our hypotheses, and use statistical inference to quantitatively assess the outcome of our experiments, while gaining first-hand familiarity with local ecological communities.
 
