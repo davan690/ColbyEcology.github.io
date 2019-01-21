@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DensDepChange</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Christopher Moore" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# DensDepChange
+### Christopher Moore
+### 2018/02/22&amp;27
+
+---
+
+
+
+### Results for the maximum number of humans the Earth can hold before we're all squished to death
+&lt;img src="Lec04_05_DensDep_files/figure-html/unnamed-chunk-1-1.png" width="600" height="400" /&gt;
+---
+### Results for the maximum number of humans the Earth can hold before we're all squished to death
+#### Parameters
+
+```r
+# creating objects
+	# one human is, in my est., 1/2 m^2
+		ind.human.area.m &lt;- 1/2
+	# human area in km^2
+		ind.human.area.km &lt;- ind.human.area.m/(1000*1000)
+	# land area (Wikipedia) in km^2
+		land.area &lt;- 148940000
+	# maximum number of humans: land area / human area
+		max.hum &lt;- land.area/ind.human.area.km
+	# current number of humans
+		n.humans &lt;- 7.6e9
+	# how much area humans are taking up
+		init.area &lt;- n.humans*ind.human.area.km
+	# growth rate
+		lambda &lt;- 1.2
+```
+---
+### Results for the maximum number of humans the Earth can hold before we're all squished to death
+#### Calculations
+
+```r
+# discrete solution: N_t = N_0 * lambda^t
+# written as: max.hum.area = init.area*lammbda^t
+	# solve for t
+		# max.hum.area/init.area = lambda^t
+		# log_1.1(max.hum.area/init.area) = t
+		t &lt;- log(x = max.hum/n.humans, base = lambda)
+	# firgure out the date
+		year &lt;- 2018 + t %/% 1
+		frac.year &lt;- t %% 1
+		day.of.the.year &lt;- round(365*frac.year)
+		exact.date &lt;- as.Date(day.of.the.year, origin = paste0(year,"-01-01"))
+# print our the results!
+	message(paste0("The humans will all die due to squishing on ", exact.date))
+## The humans will all die due to squishing on 2076-01-04
+```
+---
+class: inverse, center, middle
+# Density-dependent change
+---
+# Creating a density-dependent model, au Français
+![VerhulstImage](Lec04_05_DensDep_files/Verhulst.png)
+---
+# Creating a density-dependent model, translated
+
+
+*If `\(p\)` is the population, then `\(dp\)` is an infinitesimally small increase that is received in a very short period of time `\(dt\)`. If the population increase by geometric progression, we would have the equations `\(\frac{dp}{dt} = mp\)`. However, as the rate of population growth is slowed by the very increase in the number of inhabitants, we must subtract from `\(mp\)` an unknown function of `\(p\)`, so that the formula to be integrated can be written as*
+`$$\frac{dp}{dt} = mp - \varphi (p)$$`
+*The simplest hypothesis that can be made on the form of the function `\(\varphi\)` is to suppose that `\(\varphi (p) = np^2\)`.*
+---
+# The logistic model: a balance of forces
+Most generally, we wish model population growth with two functions that capture two biological phenomena, growth and crowding.
+--
+`$$\frac{\Delta N}{\Delta t} = f(N),$$` 
+with `\(f(N)\)` describing growth and crowding:
+
+--
+
+`$$f(N) = \text{growth} - \text{crowding}.$$`
+--
+
+Let growth be `\(rN\)` and crowding be `\(\alpha N^2\)`, to give us
+`$$\frac{\Delta N}{\Delta t} = rN - \alpha N^2$$`
+--
+In continuous and discrete time the logistic equations are respectively:  
+`$$\begin{align}
+\frac{dN}{dt} &amp;= rN - \alpha N^2 \\
+N_{t+1} &amp;= \lambda N_t - \alpha N_t^2
+\end{align}$$`
+
+---
+# Births and deaths in the logistic model
+(I'm only describing continous time, but it's analagous in discrete time) A generalized way of writing a more mechanistic model of births and deaths into the logisitc model is respectively by the use of functions of `\(N\)`, `\(B(N)\)` and `\(D(N)\)`:
+--
+`$$\frac{dN}{dt} = B(N) - D(N)$$`
+--
+Let's say that both per-capita births and death rates linearly decrease as a function of density, `\(N\)`. So, we can write:
+--
+`$$\frac{dN}{dt} = (bN - \mu N^2) - (dN - \nu N^2)$$`
+--
+Linearity becomes clear when we write this as *per-capita* by dividing both sides by `\(N\)`:
+`$$\frac{1}{N}\frac{dN}{dt} = (b - \mu N) - (d - \nu N)$$`
+---
+class: inverse, center, middle
+&lt;a href="https://imgflip.com/i/25ds0b"&gt;&lt;img src="https://i.imgflip.com/25ds0b.jpg" title="made at imgflip.com"/&gt;&lt;/a&gt;
+
+---
+# We have (a) model(s)—let's do all of the things!
+* Analyze it!
+  * Simulate it
+  * Solve it
+  * Find equilibria (long-term behavior)
+  * Determine stability (behavior if perturbed)
+* Visualize it!
+  * Plot a time series
+  * Plot population size `\((N)\)` and population growth `\(\left(\frac{dN}{dt}\right)\)`
+  * Plot population size `\((N)\)` and per-capita growth `\(\left(\frac{1}{N}\frac{dN}{dt}\right)\)`
+  
+---
+# Analyze it!: simulation
+.pull-left[
+Exactly what you did yesterday:
+![](Lec04_05_DensDep_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+]
+
+--
+.pull-right[
+But also vary parameters (here, `\(r\)`):
+![](Lec04_05_DensDep_files/figure-html/many.log-1.png)&lt;!-- --&gt;
+]
+
+---
+#Analyze it!: solve it
+For the `\(r-\alpha\)` logistic equation:
+`$$N(t) = \frac{rN(0)e^{rt}}{r + \alpha N(0)\left(e^{rt} - 1\right)}$$`
+
+--
+
+For the `\(K\)` logistic equation:
+`$$N(t) = \frac{KN(0)e^{rt}}{K + N(0)\left(e^{rt} - 1\right)}$$`
+--
+
+** This will be the final analytical solution in this class 😥 **
+
+---
+#Analyze it!: finding equlibria
+
+The continuous logistic
+`$$\begin{align}\frac{dN}{dt} &amp;= rN - \alpha N^2 \\
+0 &amp;= rN - \alpha N^2 \\
+0 &amp;= N\left(r - \alpha N\right) \\
+N^* &amp;= 0 \\
+0 &amp;= r - \alpha N\\
+\alpha N &amp;= r \\
+N^* &amp;= \frac{r}{\alpha}
+\end{align}$$`
+
+---
+#Analyze it!: finding equlibria
+
+The discrete logistic
+`$$\begin{align}
+N_{t+1} &amp;= \lambda N_t - \alpha N_t^2 \\
+N_t &amp;= \lambda N_t - \alpha N_t^2 \\
+0 &amp;= \lambda N_t - \alpha N_t^2 - N_t \\
+0 &amp;= N_t \left(\lambda - \alpha N_t - 1 \right) \\
+N^* &amp;= 0 \\
+0 &amp;= N_t \left(\lambda - \alpha N_t - 1 \right) \\
+0 &amp;= \lambda - \alpha N_t - 1 \\
+\alpha N_t &amp;= \lambda - 1 \\
+N^* &amp;= \frac{\lambda - 1}{\alpha}
+\end{align}$$`
+
+---
+# Analyze it!: perturbation
+Perturb the equilibira!
+
+My apologies for the next three visualizations, as there was a problem with the chunks not cooperating.
+
+
+
+---
+# Visualize it!: time series
+
+
+```r
+logistic &lt;- function(t, y, p) {
+  N &lt;- 1.5*y - 0.15*y^2
+  return(list(N))
+}
+out &lt;- ode(y = 0.01, times = seq(0, 10, 0.01), parms = NA, func = logistic)
+par(mar = c(4, 4, 0.1, 0.1), oma = c(0, 0, 0, 0))
+plot(x = out[,1], y = out[,2], las = 1, xlab = "Time", ylab = "Density (N)", type = "l", lwd = 2)
+```
+
+![](Lec04_05_DensDep_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+
+---
+# Visualize it!: population growth and density
+
+
+```r
+logistic &lt;- function(t, y, p) {
+  N &lt;- 1.5*y - 0.15*y^2
+  return(list(N))
+}
+out &lt;- ode(y = 0.01, times = seq(0, 10, 0.01), parms = NA, func = logistic)
+par(mar = c(4, 4, 0.1, 0.1), oma = c(0, 0, 0, 0))
+len.out &lt;- nrow(out)
+plot(x = out[1:(len.out-1),2], y = (out[2:len.out,2] - out[1:(len.out-1),2]), las = 1, xlab = "Density (N)", ylab = "Population growth (dN/dt)", type = "l", lwd = 2)
+```
+
+![](Lec04_05_DensDep_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+
+---
+# Visualize it!: per-capita growth and density
+
+```r
+logistic &lt;- function(t, y, p) {
+  N &lt;- 1.5*y - 0.15*y^2
+  return(list(N))
+}
+out &lt;- ode(y = 0.01, times = seq(0, 10, 0.01), parms = NA, func = logistic)
+par(mar = c(4, 4, 0.1, 0.1), oma = c(0, 0, 0, 0))
+len.out &lt;- nrow(out)
+plot(x = out[1:(len.out-1),2], y = (out[2:len.out,2] - out[1:(len.out-1),2])/out[1:(len.out-1),2], las = 1, xlab = "Density (N)", ylab = "Per calita growth (dN/dt/N)", type = "l", lwd = 2)
+```
+
+![](Lec04_05_DensDep_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

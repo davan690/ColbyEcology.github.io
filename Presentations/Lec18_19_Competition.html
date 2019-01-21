@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Competition</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Christopher Moore" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Competition
+### Christopher Moore
+### 2018/04/17&amp;19
+
+---
+
+
+
+
+class: inverse, center, bottom
+background-image: url(https://britishbirds.co.uk/wp-content/uploads/2014/07/BPY-2016-1st.jpg)
+background-size: contain
+
+# Interspecific competition
+
+---
+# Interspecific competition: comp. coefficient
+
+We aim to create a model where two species are in competition with one another.
+
+Both species grow logistically. I.e., at low densities they grow exponentially and at higher densities their growth is reduced by crowding.
+
+We also add linear competition terms, `\(\gamma _iN_j\)`. This means that the density of the other speceis, `\(N_j\)`, reduces the growth of `\(N_i\)` proportional to `\(\gamma _i\)`. If `\(\gamma _i = 1\)`, in the `\(K\)` logistic euqation of competition, then we could write:
+`$$\frac{dN_i}{dt} = r_i N_i\left(\frac{K_i - N_i - \gamma _iN_j}{K_i}\right).$$`
+That's where the effect of `\(N_j\)` on `\(N_i\)` is equivalent to `\(N_j\)`. If they aren't perfectly equivalent, then we can use `\(\gamma _i\)` to represent the porportion of `\(N_j\)`s is equivalent to `\(N_i\)`. E.g., a `\(\gamma _i\)` of 0.5 means that the reduction of growth of `\(N_i\)` by `\(N_j\)` is one half of and `\(N_i\)`.
+
+---
+# Interspecific competition: sys. of eqns.
+Version I: `\(K\)` logistic:
+`$$\frac{dN_1}{dt} = r_1 N_1\left(\frac{K_1 - N_1 - \gamma _1N_2}{K_1}\right) \\
+\frac{dN_2}{dt} = r_2 N_2\left(\frac{K_2 - N_2 - \gamma _2N_1}{K_2}\right)$$`
+
+***
+
+Version II: `\(r-\alpha\)` logistic:
+`$$\frac{dN_1}{dt} = r_1 N_1 - \alpha _{11}N_1^2 - \alpha _{12} N_1N_2\\
+\frac{dN_2}{dt} = r_2 N_2 - \alpha _{22}N_2^2 - \alpha _{21} N_2N_1$$`
+
+---
+# Interspecific competition: sys. of eqns.
+Nullclines of `\(K\)` logistic.
+
+`$$\frac{dN_1}{dt} = r_1 N_1\left(\frac{K_1 - N_1 - \gamma _1N_2}{K_1}\right) \\
+\frac{dN_2}{dt} = r_2 N_2\left(\frac{K_2 - N_2 - \gamma _2N_1}{K_2}\right)$$`
+
+--
+
+For `\(N_i\)`
+`$$\begin{aligned}
+0 &amp;= r_i N_i\left(\frac{K_i - N_i - \gamma _iN_j}{K_i}\right) \\
+N^* &amp;= 0 \\
+0 &amp;= r_i \left(\frac{K_i - N_i - \gamma _iN_j}{K_i}\right) \\
+0 &amp;= r_1 - \frac{r_iN_i}{K_i} - \frac{r_i\gamma _iN_j}{K_i} \\
+\frac{r_iN_i}{K_i} &amp;= r_1 - \frac{r_i\gamma _iN_j}{K_i} \\
+N_i^* &amp;= K_i - \gamma _iN_j
+\end{aligned}$$`
+
+---
+# Interspecific competition: sys. of eqns.
+Nullclines of `\(r-\alpha\)` logistic.
+
+`$$\frac{dN_1}{dt} = r_1 N_1 - \alpha _{11}N_1^2 - \alpha {12} N_1N_2\\
+\frac{dN_2}{dt} = r_2 N_2 - \alpha _{22}N_2^2 - \alpha {21} N_2N_1$$`
+
+--
+
+For `\(N_i\)`
+`$$\begin{aligned}
+0 &amp;= r_i N_i - \alpha _{ii} N_i^2 - \alpha _{ij} N_iN_j \\
+N^*_i &amp;= 0 \\
+0 &amp;= r_i - \alpha _{ii}N_i - \alpha _{ij} N_j \\
+\alpha _{ii}N_i &amp;= r_i - \alpha _{ij} N_j \\
+N^*_i &amp;= \frac{r_i - \alpha _{ij} N_j}{\alpha _{ii}}
+\end{aligned}$$`
+
+---
+# Interspecific competition: plot nullclines
+Nullclines of `\(K\)` logistic: (1) `\(N^*_i = 0\)` and (2) `\(N^*_i = K_i - \gamma _iN_j\)`
+
+.pull-left[
+For `\(N^*_2 = 0\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-1-1.png)&lt;!-- --&gt;
+]
+
+---
+# Interspecific competition: plot nullclines
+Nullclines of `\(K\)` logistic: (1) `\(N^*_i = 0\)` and (2) `\(N^*_i = K_i - \gamma _iN_j\)`
+
+.pull-left[
+For `\(N^*_2 = 0\)`, `\(N^*_2 = K_2 - \gamma _2N_1\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
+]
+
+--
+
+.pull-right[
+For `\(N^*_1 = 0\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+]
+
+
+---
+# Interspecific competition: plot nullclines
+Nullclines of `\(K\)` logistic: (1) `\(N^*_i = 0\)` and (2) `\(N^*_i = K_i - \gamma _iN_j\)`
+
+.pull-left[
+For `\(N^*_2 = 0\)`, `\(N^*_2 = K_2 - \gamma _2N_1\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+]
+
+.pull-right[
+For `\(N^*_1 = 0\)`, `\(N^*_1 = K_1 - \gamma _1N_2\)`  
+(i.e., `\(N_2 = \frac{K_1 - N_1}{\gamma _1}\)`)
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+]
+
+---
+# Interspecific competition: plot nullclines
+Nullclines of `\(r-\alpha\)` logistic: (1) `\(N^*_i = 0\)` and (2) `\(N^*_i = \frac{r_i - \alpha _{ij} N_j}{\alpha _{ii}}\)`
+
+.pull-left[
+For `\(N^*_2 = 0\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+]
+
+---
+# Interspecific competition: plot nullclines
+Nullclines of `\(r-\alpha\)` logistic: (1) `\(N^*_i = 0\)` and (2) `\(N^*_i = \frac{r_i - \alpha _{ij} N_j}{\alpha _{ii}}\)`
+
+.pull-left[
+For `\(N^*_2 = 0\)`, `\(N^*_2 = \frac{r_2 - \alpha _{21}N_1}{\alpha _{22}}\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
+]
+
+--
+
+.pull-right[
+For `\(N^*_1 = 0\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
+]
+
+
+---
+# Interspecific competition: plot nullclines
+Nullclines of `\(r-\alpha\)` logistic: (1) `\(N^*_i = 0\)` and (2) `\(N^*_i = \frac{r_i - \alpha _{ij} N_j}{\alpha _{ii}}\)`
+
+.pull-left[
+For `\(N^*_2 = 0\)`, `\(N^*_2 = \frac{r_2 - \alpha _{21}N_1}{\alpha _{22}}\)`
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-9-1.png)&lt;!-- --&gt;
+]
+
+.pull-right[
+For `\(N^*_1 = 0\)`, `\(N^*_1 = \frac{r_1 - \alpha _{12}N_2}{\alpha _{11}}\)`  
+(i.e., `\(N_2 = \frac{r_1 - \alpha _{11}N_1}{\alpha _{12}}\)`)
+![](Lec18_19_Competition_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

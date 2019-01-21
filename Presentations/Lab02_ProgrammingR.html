@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab2_Basic programming in R</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Christopher Moore" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Lab2_Basic programming in R
+## Conditional executions and iterative statements
+### Christopher Moore
+### 2018/02/19&amp;22
+
+---
+
+
+
+
+# Basic programming to R(1 + Studio)
+
+* **Conditional executions**: `if` statements determine whether or not to execute code
+
+--
+
+* **Iterative statements**: iterates your code 
+    * **`for()` loops**: iterate dependent actions
+    * **the `apply()` family**: iterate independent actions in a fraction of the time
+    * **`while()`**: a simple conditional iterative function
+
+---
+background-image: url(https://d33v4339jhl8k0.cloudfront.net/docs/assets/534421c6e4b09045db8e8a4b/images/5346a718e4b0b2c45b46a36b/file-ofGnbryhhh.gif)
+background-size: center
+class: inverse, center, bottom
+# Conditional executions: `if()` statements
+
+---
+# `if()` statements in R
+*A statement that might or might not be executed depending on whether a test is true or false.*
+
+--
+
+**Pseudocode:**
+
+`if (`condition`) {`  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;operation  
+`}`
+
+--
+
+**Code:**
+
+```r
+T &lt;- 200
+```
+--
+
+```r
+if (T &gt; 100) {
+  message("The porridge is too hot.")
+}
+```
+--
+
+```
+## The porridge is too hot.
+```
+
+---
+# `if()` statements in R: adding else
+
+**Pseudocode, II:**
+
+`if (`condition`) {`  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;operation  
+`} else {`  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;other operation  
+`}`
+
+--
+
+
+```r
+T &lt;- 20
+```
+--
+
+```r
+if (T &gt; 100) {
+  message("The porridge is too hot.")
+} else {
+  message("The porridge is too cold.")
+}
+```
+--
+
+```
+## The porridge is too cold.
+```
+
+---
+# `if()` statements in R: ladders
+**Pseudocode, III:**
+
+`if (`condition I`) {`  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;operation  
+`} else if (`condition II`) {`  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;other operation   
+`}`
+
+--
+
+
+```r
+T &lt;- 100
+```
+--
+
+```r
+if (T &gt; 100) {
+  message("The porridge is too hot.")
+} else if ( T &lt; 100) {
+  message("The porridge is too cold.")
+} else {
+  message("The porridge is perfect.")
+  }
+```
+--
+
+```
+## The porridge is perfect.
+```
+---
+class: inverse, center, bottom
+background-image: url(https://www.hongkiat.com/blog/wp-content/uploads/programming-jokes/joke-shampoo.jpg)
+background-size: center
+# Iterative statements in R
+
+---
+# `for()` loops in R: the basics
+An iterative statement (*that tells the computer to do all of the work for you*)
+
+--
+
+**Pseudocode:**
+
+`for (`variable in vector`) {`  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;operation  
+`}`
+
+--
+
+**Code**:
+
+```r
+for (i in 1:4) {
+  print(i)
+}
+## [1] 1
+## [1] 2
+## [1] 3
+## [1] 4
+```
+
+---
+# `for()` loops in R: saving output
+The idea is that you give `for()` a vector, and it performs an operation over it (**note a `for()` loop isn't needed for this, but it has heuristic value to do it**)
+
+--
+
+**Code**:
+
+```r
+my.vec &lt;- rep(x = 0, times = 4) #rep means repeat, and the arguments are "x" to repeat and number of "times"
+my.vec
+## [1] 0 0 0 0
+for (i in 1:4) {
+  # this saves to element `i` the value `i + 10`
+  my.vec[i] &lt;- i + 10
+}
+my.vec
+## [1] 11 12 13 14
+```
+
+---
+# `for()` loops in R: successive operations
+For perform an action based on a pervious value, and there are two common ways of doing this:
+
+--
+
+**Example 1, code**:
+
+```r
+n.steps &lt;- 4
+my.vec &lt;- rep(x = 0, times = n.steps)
+initial.val &lt;- 20
+my.vec[1] &lt;- initial.val
+for (i in 1:(n.steps - 1)) {
+  # this saves to element `i + 1` the value `i + 10`
+  my.vec[i+1] &lt;- my.vec[i]*2
+}
+```
+--
+
+```r
+my.vec
+## [1]  20  40  80 160
+```
+
+---
+# `for()` loops in R: successive operations
+For perform an action based on a pervious value, and there are two common ways of doing this:
+
+--
+
+**Example 2, code**:
+
+```r
+n.steps &lt;- 4
+my.vec &lt;- rep(x = 0, times = n.steps)
+initial.val &lt;- 20
+my.vec[1] &lt;- initial.val
+for (i in 2:n.steps) {
+  # this saves to element `i` the value `(i - 1) + 10`
+  my.vec[i] &lt;- my.vec[i-1]*2
+}
+```
+--
+
+```r
+my.vec
+## [1]  20  40  80 160
+```
+---
+# `for()` loops in R: a note on preallocation
+1. Open R (or RStudio)
+2. Create two vectors
+    1. One with a length of 0 (i.e., `c()`)
+    2. One with a length of 1 million (yes, we are about to do 1M things—I love loops)
+3. Write two `for()` loops (one for each vector) from 1 to 1 million and let's just save the value of i to its corresponding element in the vector (e.g., i = 1 is the first element, i = 2 is the second)
+4. Run the code a few times
+
+--
+5. Now, increase the length of both vectors to 10 million, and run one at a time for a few times: how long are they taking?
+
+--
+6. Now, increase the length of both vectors to 100 million! Try to time how long it takes each to loop through each vector.
+
+--
+### Take-home message: always preallocate!
+---
+# `for()` loops in R: a note on preallocation
+
+
+```r
+size &lt;- 1e8
+
+d.start &lt;- proc.time()
+abc &lt;- c()
+for (i in 1:size) {
+  abc[i] &lt;- i
+}
+d.end &lt;- proc.time()
+
+p.start &lt;- proc.time()
+cba &lt;- vector(mode = "numeric", length = size)
+for (i in 1:size) {
+  cba[i] &lt;- i
+}
+p.end &lt;- proc.time()
+
+d.end - d.start 
+##    user  system elapsed 
+##  36.255   4.369  41.936
+p.end - p.start
+##    user  system elapsed 
+##   9.758   1.510  11.992
+```
+---
+background-image: url(https://img.devrant.com/devrant/rant/r_263557_mfJLG.jpg)
+background-size: center
+class: inverse, bottom, center
+**A final rule of thumb—avoid magic numbers**  
+(Specify your variables as much as possible to reduce redundancy and errors in your code [e.g., `size` in the previous slide is used 3 subsequent times].)
+
+
+---
+# Lab Report 2, problem 2.3 and 2.4:
+2.3. Alas, some ecology! Take the difference equation (discrete time) that models density-indepedent growth. Write a `for()` loop that iterates the equation for 10 timesteps with an initial density of 0.01 and `\(\lambda = 1.01\)`. That's much easier than doing it by hand, isn't it?
+
+--
+
+2.4. Let’s now turn to a density-dependent model from this week’s reading: the Ricker model. It’s equation 30 in chapter 1. Simulate this model for 20 timesteps with `\(r=0.5\)` and `\(b = 0.1\)` from an initial density of 1 and plot it. What is the final density?
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
