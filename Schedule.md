@@ -54,4 +54,4 @@ Week |  Date  | Meeting |     Topic                                             
      |        | Lecture | Webs and networks                        		                 |                   |             |
 12   | 06 May |   Lab   | Remodeling project: analysis                                   |                   |             |
      |        | Lecture | Remodeling project presentations: Results                      |                   |             |
-Exam | 16 May |         | Remodeling project: final paper due before 6:00 PM             |                   |             |
+Exam | 17 May |         | Remodeling project: final paper due before 6:00 PM             |                   |             |
