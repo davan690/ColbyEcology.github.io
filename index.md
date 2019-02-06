@@ -15,6 +15,7 @@ Ecological Modelling is a course that is designed to help students learn theory 
 After taking this course as successful student should:
 1. Have gained an **appreciation of the art and science of modeling.**
 2. **Be versed in elementary mathematical ecology**, which includes:
+
 	I. **Understanding ecological topics** on single-species population dynamics, structured population dynamics, spatial dynamics, two-species population dynamics, and multi-species dynamics.
 	II. **Understanding and applying mathematical/analytical tools and topics** include equilibrium, stability, chaos, and stochasticity.
 3. **Be able to build, analyze, and present ecological models using the R programming language and environment.** This includes understanding and use of R data structures, functional programming, libraries for simulation and analysis of ecological models, and dynamic reports/documents using R Markdown Documents.
