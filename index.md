@@ -57,15 +57,14 @@ Students are often curious about how to address their professors. I am comfortab
 ### Participation
 This success of the class (group) is contingent upon each student (individual) coming prepared and eager to engage with the course material and one another. Of course I will employ methods to muster enthusiasm and energy, but to be clear, this is a group effort. I ask that you do your best to come to class prepared by not only having read, but doing your best to understand to the extent that if called upon, you could recall the material from the reading in addition to stating your’s own analysis of the reading's strengths, weaknesses, and higher-level analogies (e.g., relating concepts to other areas of basic and applied science).
 
-The quality and the quantity of participation will be taken into account. That is, I **fully**
-encourage you to participate, but I'd like for a somewhat uniform distribution of substantive discussion. Also, an egalitarian approach is encouraged to better facilitate exchange of ideas. Nobody is interested in group members dominating discussion. If you are one that tends to
-monopolize discussion, try to engage others, as this is—at least—as important as the
+The quality and the quantity of participation will be taken into account. That is, I *fully*
+encourage you to participate, but I'd like for a somewhat uniform distribution of substantive discussion. In addition, an egalitarian approach is encouraged to better facilitate exchange of ideas. Nobody is interested in group members dominating discussion. If you are one that tends to monopolize discussion, try to engage others, as this is—at least—as important as the
 matter at hand and is a skill that is greatly underrated and can really boost the level of
 discussion. If you are one that does not participate, *please* realize that your input is
 important to all of us! We are all intelligent and insightful, and engagement and input by
 all is how we will better understand the topic.
 
-Overall, let’s just have fun learning, which is presumably why we are all here. Having a fun time playing ideological ping-pong (not dodge ball) with each other will only harbour growth and learning. Ecological heory can be an abstract, conceptual, challening, and technical subject that lends itself greatly to creative and alternative views and approaches. In addition, ecological theory is a very applied topic, so I am certain that what we cover will touch upon each each of your scientific interests in some way.
+Overall, let’s just have fun learning, which is presumably why we are all here. Having a fun time playing ideological ping-pong (not dodge ball) with each other will only harbour growth and learning. Ecological theory can be abstract, conceptually challening, and a technical subject that lends itself greatly to creative and alternative views and approaches. In addition, ecological theory and modeling is a very applied topic, so I am certain that what we cover will touch upon each each of your scientific interests in some way.
 
 ### Academic integrity
 
