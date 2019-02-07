@@ -11,16 +11,16 @@ title: "Schedule"
 
 @media (min-width: 48em) {
   .content {
-    max-width: 50rem;
-    margin-left: 16rem;
-    margin-right: 2rem;
+​    max-width: 50rem;
+​    margin-left: 16rem;
+​    margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 18rem;
-    margin-right: 4rem;
+​    margin-left: 18rem;
+​    margin-right: 4rem;
   }
 }
 </style>
@@ -37,7 +37,7 @@ Week |  Date  | Meeting |     Topic                                             
 03   | 25 Feb |   Lab   | Model solutions: solving numerically in R                      |                   |             |
      |        | Lecture | Structured population models                                   |                   |             |
 04   | 04 Mar |   Lab   | Ecological experiment 1: single-species population growth      |                   |             |
-     |        | Lecture | ~~Model applications~~                                         |                   |             |
+     |        | Lecture | Model applications                                         |                   |             |
 05   | 11 Mar |   Lab   | Parameter estimation in R: least square methods                |                   |             |
      |        | Lecture | Dynamics                                                       |                   |             |
 06   | 18 Mar |   Lab   | Spatial modeling: lattice-based models                         |                   |             |
