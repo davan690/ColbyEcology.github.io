@@ -38,15 +38,8 @@ F: 10:00 AM–12:00 PM
 * Required: *Population ecology: from first principles*, 2<sup>nd</sup> ed., 2013, by Vandermeer and Goldberg, Princeton University Press  
 * Optional: *A primer of ecology with R*, 2009, by Stevens, Springer Press
 
-### Grading
-
-Assignments | Each | No. | Proportion of the course |
-:------------------|:----:|:---:|:------------------------:|
-Remodeling project | 0.32 | 1   |                     0.32 |
-Lecture notebooks  | 0.03 | 10  |         0.03 * 10 = 0.30 |
-Lab experiments    | 0.06 | 2   |          0.06 * 2 = 0.12 |
-Lab reports        | 0.05 | 4   |          0.05 * 4 = 0.20 |
-Participation      | 0.06 | 1   |                     0.06 |
+### Assessment and grade assignment
+To be determined.
 
 ### Attendance
 Role will not be taken, but regular attendance is necessary for you to succeed in this course.
