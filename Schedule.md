@@ -30,7 +30,7 @@ title: "Schedule"
 Week |  Date  | Meeting |     Topic                                                      | Reading           | Assignments | Misc.
 :---:|:------:|---------|----------------------------------------------------------------|-------------------|-------------|
 00   | 07 Feb | Lecture | Introduction to modeling                                       |                   |             |
-01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   |[Lab report 1](../Assignments/LabReports/LabReport_1.html){:target="_blank"} | [IntroToR](../Presentations/Lab1_IntroToR.html){:target="_blank"}
+01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   |[Lab report 1](../Assignments/LabReports/LabReport_1.html){:target="_blank"} | [IntroToR](../Presentations/Lab01_IntroToR.html){:target="_blank"}
      |        | Lecture | Density independent change                                     |                   |             |
 02   | 18 Feb |   Lab   | Basic programming in R                                         |                   |             |
      |        | Lecture | Density dependent change                                       |                   |             |
