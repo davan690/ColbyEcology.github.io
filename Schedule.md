@@ -30,14 +30,14 @@ title: "Schedule"
 Week |  Date  | Meeting |     Topic                                                      | Reading           | Assignments | Misc.
 :---:|:------:|---------|----------------------------------------------------------------|-------------------|-------------|
 00   | 07 Feb | Lecture | Introduction to modeling                                       |                   |             |
-01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   |             |
+01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   |[Lab report 1](../Assignments/LabReports/LabReport_1.html){:target="_blank"} | [IntroToR](../Presentations/Lab1_IntroToR.html){:target="_blank"}
      |        | Lecture | Density independent change                                     |                   |             |
 02   | 18 Feb |   Lab   | Basic programming in R                                         |                   |             |
      |        | Lecture | Density dependent change                                       |                   |             |
 03   | 25 Feb |   Lab   | Model solutions: solving numerically in R                      |                   |             |
      |        | Lecture | Structured population models                                   |                   |             |
 04   | 04 Mar |   Lab   | Ecological experiment 1: single-species population growth      |                   |             |
-     |        | Lecture | Model applications                                         |                   |             |
+     |        | Lecture | Model applications                                             |                   |             |
 05   | 11 Mar |   Lab   | Parameter estimation in R: least square methods                |                   |             |
      |        | Lecture | Dynamics                                                       |                   |             |
 06   | 18 Mar |   Lab   | Spatial modeling: lattice-based models                         |                   |             |
