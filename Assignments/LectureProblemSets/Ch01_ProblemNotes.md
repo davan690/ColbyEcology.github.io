@@ -1,6 +1,6 @@
 ---
 layout: assignment
-title: "Chapter 1 Clarifications"
+title: "Chapter 1 Problem Notes"
 ---
 
 # Chapter 1 Problem Notes
