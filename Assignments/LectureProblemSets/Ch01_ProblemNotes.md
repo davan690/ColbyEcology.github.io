@@ -41,7 +41,7 @@ years <- seq(from = 1964, to = 2005, by = 1)
 
 1.13. Find the derivative of the logistic equation (eq. 17) with respect to $N$. I.e.,
 
-$$\frac{{d}}{{{d}N}}\left(\frac{{dN}}{dt}\right) = rN\left(\frac{K - N}{K}\right)$$
+$$\frac{\mathrm{d} } {{\mathrm{d}N} } \left(\frac{\mathrm{d} N} {\mathrm{d} t}\right) = rN\left(\frac{K - N}{K}\right)$$
 
 1.14. Skip.
 
