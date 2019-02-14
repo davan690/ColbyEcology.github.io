@@ -14,7 +14,7 @@ title: "Chapter 1 Clarifications"
 `$\frac{1}{2} / N_{t - 1} > \log 4$`
 will produce
 $1^2 + x = 5$, and
-$\frac{1}{2} \times N_{t - 1} > \log (4)​$, respectively.
+$\frac{1}{2} \times N_{t - 1} > \log (4)$, respectively.
 
 1.4. None.
 
@@ -40,7 +40,7 @@ years <- seq(from = 1964, to = 2005, by = 1)
 1.12. None.
 
 1.13. Find the derivative of the logistic equation (eq. 17) with respect to $N$. I.e.,
-$$\frac{\mathrm{d}}{{mathrm{d}t}}$$
+$$\frac{\mathrm{d}}{{\mathrm{d}N}}\left(\frac{\mathrm{dN}}{dt}\right) = rN\left(\frac{K - N}{K}\right)$$
 
 1.14. Skip.
 
