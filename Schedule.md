@@ -31,27 +31,27 @@ Week |  Date  | Meeting |     Topic                                             
 :---:|:------:|---------|----------------------------------------------------------------|-------------------|-------------|---------------|-------------|-------------|-------|
 00   | 07 Feb | Lecture | Introduction to modeling                                       |                   |             |               |             |             |       |
 01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   | [IntroToR](../Presentations/Lab01_IntroToR.html) |               | [Lab report 1](../Assignments/LabReports/LabReport_1.html) |             |       |
-     |        | Lecture | Density independent change                                     | 1–13              | [IntroToModels&DensInd](../Presentations/Wk01Models_DensIndGrowth.html) | [Ch01PSetNotes](../Assignments/LectureProblemSets/Ch01_ProblemNotes.html) |             | [Tues](https://drive.google.com/file/d/1zWYDbWTsevAThawVXsggZXiS8vnMk9Wj/view?usp=sharing), [Thus]() |       |
+     |        | Lecture | Density independent change                                     | 1–13              | [Models&DensInd](../Presentations/Wk01Models_DensIndGrowth.html) | [Ch01PSetNotes](../Assignments/LectureProblemSets/Ch01_ProblemNotes.html) |             | [Tu](https://drive.google.com/file/d/1zWYDbWTsevAThawVXsggZXiS8vnMk9Wj/view?usp=sharing), [Th](https://drive.google.com/file/d/1fyieK1Cs2jgYpNIXPyiY9xV93oPJtWJx/view?usp=sharing) |       |
 02   | 18 Feb |   Lab   | Basic programming in R                                         |                   |             |               |             |             |       |
-     |        | Lecture | Density dependent change                                       | 13–29 (skip 17–22)|             |               | 1.1–1.18 (skip 1.15 & 1.1.5)                       | [Tues](), [Thus]() |       |
+     |        | Lecture | Density dependent change                                       | 13–29 (skip 17–22)|             |               | 1.1–1.18 (skip 1.15 & 1.1.5)                       |             |       |
 03   | 25 Feb |   Lab   | Model solutions: solving numerically in R                      |                   |             |               |             |             |       |
-     |        | Lecture | Structured population models                                   |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Structured population models                                   |                   |             |               |             |             |       |
 04   | 04 Mar |   Lab   | Ecological experiment 1: single-species population growth      |                   |             |               |             |             |       |
-     |        | Lecture | Model applications                                             |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Model applications                                             |                   |             |               |             |             |       |
 05   | 11 Mar |   Lab   | Parameter estimation in R: least square methods                |                   |             |               |             |             |       |
-     |        | Lecture | Dynamics                                                       |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Dynamics                                                       |                   |             |               |             |             |       |
 06   | 18 Mar |   Lab   | Spatial modeling: lattice-based models                         |                   |             |               |             |             |       |
-     |        | Lecture | Spatial patterns and dynamics                                  |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Spatial patterns and dynamics                                  |                   |             |               |             |             |       |
 07   | 01 Apr |   Lab   | Remodeling project presentations: proposal                     |                   |             |               |             |             |       |
-     |        | Lecture | Predator-prey/Consumer-resourse interactions                   |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Predator-prey/Consumer-resourse interactions                   |                   |             |               |             |             |       |
 08   | 08 Apr |   Lab   | Ecological experiment 2: predators and prey in virtual reality |                   |             |               |             |             |       |
-     |        | Lecture | Disease ecology		           	                             |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Disease ecology		           	                             |                   |             |               |             |             |       |
 09   | 15 Apr |   Lab   | Parameter estimation in R: maximum likelihood                  |                   |             |               |             |             |       |
-     |        | Lecture | Competition  				                                     |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Competition  				                                     |                   |             |               |             |             |       |
 10   | 22 Apr |   Lab   | Remodeling project presentations: methods                      |                   |             |               |             |             |       |
-     |        | Lecture | Facilitation and mutualism                                     |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Facilitation and mutualism                                     |                   |             |               |             |             |       |
 11   | 29 Apr |   Lab   | Remodeling project: analysis                                   |                   |             |               |             |             |       |
-     |        | Lecture | Webs and networks                        		                 |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Webs and networks                        		                 |                   |             |               |             |             |       |
 12   | 06 May |   Lab   | Remodeling project: analysis                                   |                   |             |               |             |             |       |
-     |        | Lecture | Remodeling project presentations: Results                      |                   |             |               |             | [Tues](), [Thus]() |       |
+     |        | Lecture | Remodeling project presentations: Results                      |                   |             |               |             |             |       |
 Exam | 17 May |         | Remodeling project: final paper due before 6:00 PM             |                   |             |               |             |             |       |
