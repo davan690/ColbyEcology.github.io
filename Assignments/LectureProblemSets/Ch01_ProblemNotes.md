@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: assignment
 title: "Chapter 1 Problem Notes"
 ---
 

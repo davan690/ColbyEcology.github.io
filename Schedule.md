@@ -31,7 +31,7 @@ Week |  Date  | Meeting |     Topic                                             
 :---:|:------:|---------|----------------------------------------------------------------|-------------------|-------------|-------------|
 00   | 07 Feb | Lecture | Introduction to modeling                                       |                   |             | |
 01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   |[Lab report 1](../Assignments/LabReports/LabReport_1.html) | [IntroToR](../Presentations/Lab01_IntroToR.html) |
-     |        | Lecture | Density independent change                                     | 1–13              |[Ch1PSetNotes](../Assignments/LectureProblemSets/Ch01_ProblemNotes.md) | |
+     |        | Lecture | Density independent change                                     | 1–13              |[Ch01PSetNotes](../Assignments/LectureProblemSets/Ch01_ProblemNotes.html) | |
 02   | 18 Feb |   Lab   | Basic programming in R                                         |                   |             | |
      |        | Lecture | Density dependent change                                       | 13–29 (skip 17–22)|             | |
 03   | 25 Feb |   Lab   | Model solutions: solving numerically in R                      |                   |             | |
