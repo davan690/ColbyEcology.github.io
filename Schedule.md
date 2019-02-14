@@ -27,31 +27,31 @@ title: "Schedule"
 
 <sup>&#8224;</sup>Readings and assignments are from the text *Population ecology: from first principles*, 2<sup>nd</sup> ed., 2013, by Vandermeer and Goldberg, unless otherwise specified
 
-Week |  Date  | Meeting |     Topic                                                      | Reading           | Assignments | Misc.       |
-:---:|:------:|---------|----------------------------------------------------------------|-------------------|-------------|-------------|
-00   | 07 Feb | Lecture | Introduction to modeling                                       |                   |             | |
-01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   |[Lab report 1](../Assignments/LabReports/LabReport_1.html) | [IntroToR](../Presentations/Lab01_IntroToR.html) |
-     |        | Lecture | Density independent change                                     | 1–13              |[Ch01PSetNotes](../Assignments/LectureProblemSets/Ch01_ProblemNotes.html) | |
-02   | 18 Feb |   Lab   | Basic programming in R                                         |                   |             | |
-     |        | Lecture | Density dependent change                                       | 13–29 (skip 17–22)|             | |
-03   | 25 Feb |   Lab   | Model solutions: solving numerically in R                      |                   |             | |
-     |        | Lecture | Structured population models                                   |                   |             | |
-04   | 04 Mar |   Lab   | Ecological experiment 1: single-species population growth      |                   |             | |
-     |        | Lecture | Model applications                                             |                   |             | |
-05   | 11 Mar |   Lab   | Parameter estimation in R: least square methods                |                   |             | |
-     |        | Lecture | Dynamics                                                       |                   |             | |
-06   | 18 Mar |   Lab   | Spatial modeling: lattice-based models                         |                   |             | |
-     |        | Lecture | Spatial patterns and dynamics                                  |                   |             | |
-07   | 01 Apr |   Lab   | Remodeling project presentations: proposal                     |                   |             | |
-     |        | Lecture | Predator-prey/Consumer-resourse interactions                   |                   |             | |
-08   | 08 Apr |   Lab   | Ecological experiment 2: predators and prey in virtual reality |                   |             | |
-     |        | Lecture | Disease ecology		           	                             |                   |             | |
-09   | 15 Apr |   Lab   | Parameter estimation in R: maximum likelihood                  |                   |             | |
-     |        | Lecture | Competition  				                                     |                   |             | |
-10   | 22 Apr |   Lab   | Remodeling project presentations: methods                      |                   |             | |
-     |        | Lecture | Facilitation and mutualism                                     |                   |             | |
-11   | 29 Apr |   Lab   | Remodeling project: analysis                                   |                   |             | |
-     |        | Lecture | Webs and networks                        		                 |                   |             | |
-12   | 06 May |   Lab   | Remodeling project: analysis                                   |                   |             | |
-     |        | Lecture | Remodeling project presentations: Results                      |                   |             | |
-Exam | 17 May |         | Remodeling project: final paper due before 6:00 PM             |                   |             | |
+Week |  Date  | Meeting |     Topic                                                      | Reading           | Slides      | PSet Notes    | Assignments | Misc.       |
+:---:|:------:|---------|----------------------------------------------------------------|-------------------|-------------|---------------|-------------|-------------|
+00   | 07 Feb | Lecture | Introduction to modeling                                       |                   |             |               |             |             |
+01   | 11 Feb |   Lab   | Introduction to R and RStudio                                  |                   | [IntroToR](../Presentations/Lab01_IntroToR.html) |               | [Lab report 1](../Assignments/LabReports/LabReport_1.html) |             |
+     |        | Lecture | Density independent change                                     | 1–13              |             | [Ch01PSetNotes](../Assignments/LectureProblemSets/Ch01_ProblemNotes.html) |             |             |
+02   | 18 Feb |   Lab   | Basic programming in R                                         |                   |             |               |             |             |
+     |        | Lecture | Density dependent change                                       | 13–29 (skip 17–22)|             |               |             |             |
+03   | 25 Feb |   Lab   | Model solutions: solving numerically in R                      |                   |             |               |             |             |
+     |        | Lecture | Structured population models                                   |                   |             |               |             |             |
+04   | 04 Mar |   Lab   | Ecological experiment 1: single-species population growth      |                   |             |               |             |             |
+     |        | Lecture | Model applications                                             |                   |             |               |             |             |
+05   | 11 Mar |   Lab   | Parameter estimation in R: least square methods                |                   |             |               |             |             |
+     |        | Lecture | Dynamics                                                       |                   |             |               |             |             |
+06   | 18 Mar |   Lab   | Spatial modeling: lattice-based models                         |                   |             |               |             |             |
+     |        | Lecture | Spatial patterns and dynamics                                  |                   |             |               |             |             |
+07   | 01 Apr |   Lab   | Remodeling project presentations: proposal                     |                   |             |               |             |             |
+     |        | Lecture | Predator-prey/Consumer-resourse interactions                   |                   |             |               |             |             |
+08   | 08 Apr |   Lab   | Ecological experiment 2: predators and prey in virtual reality |                   |             |               |             |             |
+     |        | Lecture | Disease ecology		           	                             |                   |             |               |             |             |
+09   | 15 Apr |   Lab   | Parameter estimation in R: maximum likelihood                  |                   |             |               |             |             |
+     |        | Lecture | Competition  				                                     |                   |             |               |             |             |
+10   | 22 Apr |   Lab   | Remodeling project presentations: methods                      |                   |             |               |             |             |
+     |        | Lecture | Facilitation and mutualism                                     |                   |             |               |             |             |
+11   | 29 Apr |   Lab   | Remodeling project: analysis                                   |                   |             |               |             |             |
+     |        | Lecture | Webs and networks                        		                 |                   |             |               |             |             |
+12   | 06 May |   Lab   | Remodeling project: analysis                                   |                   |             |               |             |             |
+     |        | Lecture | Remodeling project presentations: Results                      |                   |             |               |             |             |
+Exam | 17 May |         | Remodeling project: final paper due before 6:00 PM             |                   |             |               |             |             |
