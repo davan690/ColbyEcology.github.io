@@ -26,9 +26,9 @@ Email: cmmoore
 Office: Olin 216  
 Office phone: 207-859-5746  
 
-### Meetings for lectures and labs
+### Meetings for discussions and labs
 Labs: M, 1—4:00 PM, in Olin 314  
-Lectures: TR, 9:30—10:45 AM, in Miller 205
+Discussions: TR, 9:30—10:45 AM, in Miller 205
 
 ### Office hours
 W: 1:00–3:00 PM  
@@ -39,7 +39,21 @@ F: 10:00 AM–12:00 PM
 * Optional: *A primer of ecology with R*, 2009, by Stevens, Springer Press
 
 ### Assessment and grade assignment
-To be determined.
+| Assignments          | Each  | No.  | Proportion of the course |
+| :------------------- | :---: | :--: | :----------------------: |
+| Problem sets         | 0.035 |  10  |           0.35           |
+| Quizzes (individual) | 0.010 |  11  |           0.11           |
+| Quizzes (group)      | 0.010 |  11  |           0.11           |
+| Lab experiments      | 0.040 |  2   |           0.08           |
+| Lab reports          | 0.030 |  4   |           0.12           |
+| Remodeling project   | 0.200 |  1   |           0.20           |
+| Participation        | 0.030 |  1   |           0.03           |
+
+- **Problem sets**: Exercises from the text. They are due Fridays by 5 PM of every week.
+- **Quizzes**: Every Tuesday there will be a quiz, with 5 multiple choice problems, based on the week's material. You will first take it individually, then with a group.
+- **Lab reports/experiments**: The Lab reports are in-lab work, mostly focused on programming in R. The Lab experiments are based on lab experiments and will be full write-ups.
+- **Remodeling project**: This is the big project of the semester where you will choose a scientific paper with an ecological model and recreate it. Throughout the semester you will give several small presentations on the paper and model.
+- **Participation**: Participation is necessary for this course to succeed.
 
 ### Attendance
 Role will not be taken, but regular attendance is necessary for you to succeed in this course.
