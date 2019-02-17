@@ -39,6 +39,7 @@ F: 10:00 AM–12:00 PM
 * Optional: *A primer of ecology with R*, 2009, by Stevens, Springer Press
 
 ### Assessment and grade assignment
+
 | Assignments          | Each  | No.  | Proportion of the course |
 | :------------------- | :---: | :--: | :----------------------: |
 | Problem sets         | 0.035 |  10  |           0.35           |
