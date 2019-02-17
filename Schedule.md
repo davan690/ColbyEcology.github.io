@@ -37,21 +37,21 @@ Week |  Date  | Meeting |     Topic                                             
 03   | 25 Feb |   Lab   | Model solutions: solving numerically in R                      |                   |             |               |             |             |       |
      |        | Lecture | Structured population models                                   |                   |             |               |             |             |       |
 04   | 04 Mar |   Lab   | Ecological experiment 1: single-species population growth      |                   |             |               |             |             |       |
-     |        | Lecture | Model applications                                             |                   |             |               |             |             |       |
-05   | 11 Mar |   Lab   | Parameter estimation in R: least square methods                |                   |             |               |             |             |       |
      |        | Lecture | Dynamics                                                       |                   |             |               |             |             |       |
-06   | 18 Mar |   Lab   | Spatial modeling: lattice-based models                         |                   |             |               |             |             |       |
+05   | 11 Mar |   Lab   | Parameter estimation in R: least square methods                |                   |             |               |             |             |       |
      |        | Lecture | Spatial patterns and dynamics                                  |                   |             |               |             |             |       |
-07   | 01 Apr |   Lab   | Remodeling project presentations: proposal                     |                   |             |               |             |             |       |
+06   | 18 Mar |   Lab   | Spatial modeling: lattice-based models                         |                   |             |               |             |             |       |
      |        | Lecture | Predator-prey/Consumer-resourse interactions                   |                   |             |               |             |             |       |
+07   | 01 Apr |   Lab   | Remodeling project presentations: proposal                     |                   |             |               |             |             |       |
+     |        | Lecture | Disease ecology                                                |                   |             |               |             |             |       |
 08   | 08 Apr |   Lab   | Ecological experiment 2: predators and prey in virtual reality |                   |             |               |             |             |       |
-     |        | Lecture | Disease ecology		           	                             |                   |             |               |             |             |       |
+     |        | Lecture | Competition	       	           	                             |                   |             |               |             |             |       |
 09   | 15 Apr |   Lab   | Parameter estimation in R: maximum likelihood                  |                   |             |               |             |             |       |
-     |        | Lecture | Competition  				                                     |                   |             |               |             |             |       |
-10   | 22 Apr |   Lab   | Remodeling project presentations: methods                      |                   |             |               |             |             |       |
      |        | Lecture | Facilitation and mutualism                                     |                   |             |               |             |             |       |
+10   | 22 Apr |   Lab   | Remodeling project presentations: methods                      |                   |             |               |             |             |       |
+     |        | Lecture | Webs and networks                                              |                   |             |               |             |             |       |
 11   | 29 Apr |   Lab   | Remodeling project: analysis                                   |                   |             |               |             |             |       |
-     |        | Lecture | Webs and networks                        		                 |                   |             |               |             |             |       |
+     |        | Lecture | Philosophy and applicaitons of ecological modeling             |                   |             |               |             |             |       |
 12   | 06 May |   Lab   | Remodeling project: analysis                                   |                   |             |               |             |             |       |
      |        | Lecture | Remodeling project presentations: Results                      |                   |             |               |             |             |       |
 Exam | 17 May |         | Remodeling project: final paper due before 6:00 PM             |                   |             |               |             |             |       |
