@@ -47,8 +47,8 @@ F: 10:00 AM–12:00 PM
 | Quizzes (group)      | 0.011 |  10  |           0.110          |
 | Lab experiments      | 0.040 |  2   |           0.080          |
 | Lab reports          | 0.030 |  4   |           0.120          |
-| Remodeling project   | 0.200 |  1   |           0.235          |
-| Participation        | 0.030 |  1   |           0.030          |
+| Remodeling project   | 0.200 |  1   |           0.240          |
+| Participation        | 0.030 |  1   |           0.025          |
 
 - **Problem sets**: Exercises from the text. They are due Fridays by 5 PM of every week.
 - **Quizzes**: Every Tuesday there will be a quiz, with 5 multiple choice problems, based on the week's material. You will first take it individually, then with a group.
