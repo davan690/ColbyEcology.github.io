@@ -191,11 +191,11 @@ plot(x = out[1:(len.out-1),2], y = (out[2:len.out,2] - out[1:(len.out-1),2])/out
 
 --
 Hassel (also Bleasdale and Nedler) model:
-`$$N_{t+1} = \left(\frac{\lambda N_t}{\left(1 + \alpha N_t\right)^b}\right)$$`
+`$$N_{t+1} = \frac{\lambda N_t}{\left(1 + \alpha N_t\right)^b}$$`
 
 --
 Beverton and Holt (same as Hassel when `\(b = 1\)`):
-`$$N_{t+1} = \left(\frac{\lambda N_t}{\left(1 + \alpha N_t\right)}\right)$$`
+`$$N_{t+1} = \frac{\lambda N_t}{\left(1 + \alpha N_t\right)}$$`
 --
 The Ricker equation:
 `$$N_{t+1} = N_t \exp\left(r\left(1 - bN_t\right)\right)$$`
