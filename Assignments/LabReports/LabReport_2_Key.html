@@ -332,6 +332,8 @@ for (k in 1:n.rs) {
 </div>
 <div id="optional-challenge-nested-looping-with-for" class="section level2">
 <h2>3. (Optional challenge) Nested looping with <code>for()</code></h2>
+<p>3.1. The lone, optional question in this section asks you to write a nested loop. These come in handy when you want to look at multiple parameters in an ecological model. For the Ricker eqn. in 2.6 we looked at 1 value of <span class="math inline">\(r\)</span> and 1 value of <span class="math inline">\(b\)</span> to find the population density after 20 timesteps. In 2.7 we looked at 1 value of <span class="math inline">\(b\)</span> and 10 values of <span class="math inline">\(r\)</span> to find the density after 20 time steps. But what if we are interested in the Ricker equation across 10 values of <span class="math inline">\(r\)</span> and 10 values of <span class="math inline">\(b\)</span>? These nested loops will do this for you. Please construct a nested for loop to analyze 10 values of <span class="math inline">\(r\)</span> between 0.1 and 0.5 and 10 values of <span class="math inline">\(b\)</span> between 0.1 and 1.0. (<code>seq(from = x, to = y, length.out = 45)</code> will, for instance, generate 45 values within the interval of <code>x</code> and <code>y</code>.)</p>
+<hr />
 <pre class="r"><code>n.steps &lt;- 20
 n.rs &lt;- 10
 n.bs &lt;- 10
