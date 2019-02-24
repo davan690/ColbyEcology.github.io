@@ -44,6 +44,45 @@ Note that I use `matrix()` to create the population projection matrix and create
 
 2.6. Ratio means divide, so you'd divide one age class over time over another age class over time.
 
+2.7. None.
 
+2.8. None.
 
+2.9. None.
 
+2.10. I've done this for you:
+
+Using the same projection matrix as in exercise 2.9, multiply the matrix by itsef 10 times. Recall that you estimated the intrinsic rate of natural increase as 0.5603 in exercise 2.9. Verify equation 8 by calculating the vector $\mathbf{N}_{t+1}$ from $\mathbf{P}^{10}\mathbf{N}_t$ and then from $\lambda ^{10}\mathbf{N}_t$, using the stable age distribution for $\mathbf{N}_t$ and then plotting the two calculations against one another.
+
+```{r}
+proj.mat.n <- proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% proj.mat4 %*% N0_2.9
+
+lambda.n <- exp(slope*10)*N0_2.9
+plot(x = proj.mat.n, y = lambda.n, las = 1, xlab = "Density using (projection matrix)^n", ylab = "Density using lambda^n", cex = 2, pch = 16)
+  lines(x = proj.mat.n, y = lambda.n)
+```
+
+2.11. None.
+
+2.12. Reference the antepenultimate (third-to-last) equation before the exercise that gives the equation for a determinant of a 2-by-2 matrix. Show steps.
+
+2.13. None.
+
+2.14. Let's let our "computers" compute the eigenvalues and do the work for us. Use `eigen()` over your matrix. The first of the `$values` output is the dominant (also described as the largest in the book) eigenvalue, which is the finite rate of population increase! (Right?! I love computers, too!) Still do the remainder of the problem, estimating the dominant eigenvalue, etc.
+
+2.15. 
+> In markdown, here is how you create a vector:  
+`$$\Biggl[ \begin{smallmatrix} x \\ y \\ z \end{smallmatrix}\Biggr]$$`  
+That looks like this: $$\Biggl[ \begin{smallmatrix} x \\ y \\ z \end{smallmatrix}\Biggr]$$.
+
+> In markdown, here is how you create a matrix:  
+`$$\Biggl[ \begin{smallmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{smallmatrix}\Biggr]$$`.  
+That looks like this: $$\Biggl[ \begin{smallmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{smallmatrix}\Biggr]$$.
+
+2.16. None.
+
+2.17. None.
+
+2.18. Write in the matrix elements any way you see fit. Convention is a subscript for the row and column; e.g., the probability that the second-year olds have come from the first-year olds could be written as $p_{21}$ in the third row and second column (assuming we have an age class "$0$")).
+
+2.19. None.
