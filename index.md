@@ -31,6 +31,7 @@ Labs: M, 1—4:00 PM, in Olin 314
 Discussions: TR, 9:30—10:45 AM, in Miller 205
 
 ### Office hours
+T: 4:00–5:00 PM  
 W: 1:00–3:00 PM  
 F: 10:00 AM–12:00 PM
 
