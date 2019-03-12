@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ecology in Space</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Christopher Moore" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Ecology in Space
+### Christopher Moore
+### Week 05
+
+---
+
+
+
+
+class: inverse, center, middle
+
+![The Martian](http://www.slate.com/content/dam/slate/blogs/browbeat/2015/10/02/the_martian_s_hero_survives_on_potatoes_here_are_the_recipes_he_should_make/themartianwithpotatoes.jpg.CROP.promo-large.jpg)
+
+# Not this kind of space
+
+---
+class: inverse, center, middle
+# This kind of space
+
+.pull-left[
+![Patches](https://8systems.files.wordpress.com/2010/09/morven2010.jpg)
+]
+
+--
+.pull-right[
+![Scale](https://cdn.britannica.com/s:700x450/69/167169-004-4A044F42.jpg)
+]
+
+---
+# V&amp;G's covereage of space
+
+1. Poisson distribution
+
+--
+
+2. Point-pattern analysis and questions of scale
+
+--
+
+3. Mechanisms of spatial pattern formulation: reaction diffusion and biological causes
+
+--
+
+4. Metapopulations
+
+---
+# Types of spatial models
+
+Type of model | Space | Time | Population
+--------------|-------|------|-----------
+Spatialy implicit (i.e., Levins metapopulation) | implicit | continuous or discrete | continuous
+Patch | Several "patches" | continuous or discrete | continuous
+Mapped lattice | discrete | discrete | continuous
+Partial differential equations | continuous | continuous | continuous
+Interacting particle systems (e.g., cellular automata) | discrete | discrete | discrete
+
+This is not comprehensive, but general and, hopefully, illustrative
+
+---
+class: inverse, center, middle
+
+# Spatial models in ecology
+## A spatially-implicit model, the Levins population model
+
+---
+# The Levins metapopulation model
+Imagine a set of suitable patches
+![](Wk05_Space_files/figure-html/unnamed-chunk-1-1.png)&lt;!-- --&gt;
+
+---
+# The Levins metapopulation model
+Imagine a set of suitable patches, with some occupied
+![](Wk05_Space_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
+
+---
+# The Levins metapopulation model
+Imagine a set of suitable patches, with some occupied at equilibirum
+![](Wk05_Space_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+
+---
+# The Levins metapopulation model
+Imagine a set of suitable patches, with some going extinct and being colonized
+![](Wk05_Space_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+
+--
+
+![](Wk05_Space_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+---
+# The Levins metapopulation model
+Imagine a set of suitable patches, with `\(p(t)\)` occupied and  `\(1 - p(t)\)` unpccupied
+![](Wk05_Space_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+`\(p(t) = 4/8 = 0.5\)`
+
+---
+# The Levins metapopulation model
+We arrive at
+
+`$$\LARGE
+\frac{dp}{dt} = mp(1 - p) - ep$$`
+
+---
+# The Levins metapopulation model
+## Analysis
+
+1. Simulate it using numerical solvers, and vizualize it
+2. Plot rate of change as a function of `\(p\)`
+3. Find equilibria `\(\left(\frac{dp}{dt} = 0\right)\)`
+4. Determine behavior around each equilibria
+
+---
+# The Levins metapopulation model
+1.Simulate it using numerical solvers, and vizualize it
+
+Ideally, we'd simulate it across all values of our parameters, including `\(m\)`, `\(e\)`, and `\(p(0)\)` ( `\(p\)` at time 0). Ignoring `\(p(0)\)`, let's just look at how `\(m\)` and `\(e\)` affect the population size after some time in the future: let's say after 1000 time units. See the next slide for the R code.
+
+---
+# The Levins metapopulation model
+
+
+```r
+# Set up and solve (but not p(0) I am going to loop over all my values of m and e)
+time.seq &lt;- seq(from = 0, to = 100, by = 0.5)
+m &lt;- seq(0, 1, by = 0.01)
+e &lt;- seq(0, 1, by = 0.01)
+p0 &lt;- 0.5
+
+Levins &lt;- function(t, p, parms) {
+  with(as.list(c(p, parms)), {
+    dpdt &lt;- m*p*(1 - p) - e*p
+    return(list(dpdt))
+  })
+}
+
+p.mat &lt;- matrix(data = NA, nrow = length(m), ncol = length(e))
+
+for (i in 1:length(m)) {
+  for (j in 1:length(e)) {
+    loop.parms &lt;- c(m = m[i], e = e[j])
+    out &lt;- ode(y = p0, times = time.seq, func = Levins, parms = loop.parms)
+    p.mat[i, j] &lt;- out[length(time.seq), 2]
+  }
+}
+```
+
+---
+# The Levins metapopulation model
+Visualizing the plot (dark colors means that the proportion of occupied patches are near 0, and light colors mean the proportion of occupied patches are near 1)
+
+```r
+image(x = m, y = e, z = p.mat, las = 1, col = viridis::viridis(n = 100, option = "B"))
+```
+
+![](Wk05_Space_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
+
+---
+# The Levins metapopulation model
+2.Plot rate of change as a function of `\(p\)` (with arbitraty `\(e\)` and `\(m\)` values, except that `\(m &gt;e\)`)
+.pull-left[
+
+```r
+ps &lt;- seq(from = 0, to = 1, by = 0.01)
+e &lt;- 0.1
+m &lt;- 0.8
+dpdt &lt;- m*ps*(1 - ps) - e*ps
+```
+
+
+```r
+plot(x = ps, y = dpdt, las = 1, type = "n", xlab = "p", ylab = "dp/dt")
+segments(x0 = -1, y0 = 0, x1 = 2, y1 = 0, col = "grey50")
+segments(y0 = -1, x0 = 0, y1 = 2, x1 = 0, col = "grey50")
+lines(x = ps, y = dpdt, lwd = 2, col = "red")
+```
+]
+
+.pull-right[
+![](Wk05_Space_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+]
+
+---
+# The Levins metapopulation model
+3.Find equilibria `\(\left(\frac{dp}{dt} = 0\right)\)`
+`$$\begin{aligned}
+0 &amp;= mp(1 - p) - ep \\
+0 &amp;= p(m - mp - e) \\
+p^* &amp;= 0\text{, and } p^* = \frac{m-e}{m}
+\end{aligned}$$`
+
+---
+# The Levins metapopulation model
+4.Determine behavior around each equilibria
+
+First, find the derivative of the differential equation. Second, evaluate it at each equilibrium to determinte the slope at each point.
+`$$\frac{d(mp(1 - p) - ep)}{dp} = m - 2mp - e$$`
+
+1. `$$\left.\frac{d(mp(1 - p) - ep)}{dp}\right|_{p^* = 0} = m -2m(0) - e = m - e$$`
+
+2. `$$\left.\frac{d(mp(1 - p) - ep)}{dp}\right|_{p^* = \frac{m-e}{m}} = m -2m\left(\frac{m-e}{m}\right) - e = e - m$$`
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
