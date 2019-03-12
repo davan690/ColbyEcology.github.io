@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamics</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Christopher Moore" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Dynamics
+### Christopher Moore
+### Week 04
+
+---
+
+
+
+
+# Models fit from yesterday's lab: time series
+
+
+
+
+
+![](Wk04_Dynamics_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+---
+
+# Models fit from yesterday's lab: residual sum of squares
+
+![](Wk04_Dynamics_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+
+---
+
+# Experiment write up (paper)
+- **Introduction**: A couple of paragraphs on single-species dynamics (esp. density dependence). Structurally, begin broadly (e.g., population ecology, single-species population growth) and end specifically (e.g., evaluating). End with the aim (estimate parameters and discriminate among models) and predictions.
+
+--
+
+- **Methods**: A subsection on parameter estimation and a subsection on model discrimination. Each subsection might be a couple of paragraphs. Include R functions, initial conditions, equations, and other relevant material that one would need to be able to generally replicate the work.
+
+--
+
+- **Results**: a couple of paragraphs describing the findings. Include at least one graph from estimating parameters section with the data, logistic curve, and exponential curve on the same graph. Include a table with the models you fit, their estimated parameter values, and residual sum-of-squares.
+
+--
+
+- **Discussion**: Evaluate and discuss your findings in 3-to-4 paragraphs. Contextualize what you found with what you wrote about in your introduction.
+---
+class: inverse, center, middle
+
+# Dynamics
+
+---
+# The genesis of the qualitative theory of differential equations
+
+&gt; *Formerly an equation was not considered solved except when the solution was expressed by means of a finite number of known functions; but that is possible in scarcely once in a hundred times. What we can alwyas do, or rather what we may always try to do, is to solve the problem qualitatively, so to speak—that is, to find the genereal shape of the curves which the unknown function represents.*  
+
+&gt; Henri Poincaré
+
+---
+class: inverse, center
+# A new ecological model: Allee effects
+![African wild dogs](https://c402277.ssl.cf1.rackcdn.com/photos/10341/images/hero_full/wild_dogs-web.jpg?1447180370)
+
+(an exciting hunting sequence: [link](https://www.youtube.com/watch?v=WqEzEHRuLf0))
+
+---
+# A new ecological model: Allee effects
+
+**Allee effect**: positive density dependence at low density, so that small populations grow more slowly than large ones. (First described by Warder Clyde Allee.)
+
+--
+
+Mathematically, Allee effects can be modeled
+
+`$$\frac{dN}{dt} = rN\left(\frac{K-N}{K}\right)\left(\frac{N - A}{A}\right)$$`
+
+--
+
+We have a model: let's analyze and graph it!
+
+--
+
+What are long-term behaviors; i.e., the equilibria? Take a couple of minutes, but just look at the equation and don't do any math on paper. Write down the answer and I'll come by to check.
+
+---
+# Next, plot a time series
+`$$\frac{dN}{dt} = rN\left(\frac{K-N}{K}\right)\left(\frac{N - A}{A}\right)$$`
+
+Assign any `\(r\)`, `\(K\)`, and `\(N(0)\)` values, but make sure that `\(A &lt; K\)`.
+
+---
+# Allee time series: code
+
+```r
+allee &lt;- function(t, N, parms) {
+  with(as.list(c(N, parms)), {
+  dN &lt;- r*N*(1 - (N/K))*((N/A)-1)
+  return(list(dN))
+  })
+}
+parameters &lt;- c(r = 0.5, K = 10, A = 2)
+N0a &lt;- 0
+N0b &lt;- 1.5
+N0c &lt;- 2.5
+time.seq &lt;- seq(from = 0, to = 30, by = 0.01)
+out.a &lt;- ode(y = N0a, time = time.seq, func = allee, parms = parameters)
+out.b &lt;- ode(y = N0b, time = time.seq, func = allee, parms = parameters)
+out.c &lt;- ode(y = N0c, time = time.seq, func = allee, parms = parameters)
+```
+
+---
+# Allee time series
+
+```r
+par(mfrow = c(1, 3), mar = c(4.5, 4.5, 0.1, 0.1))
+plot(x = out.a[,1], y = out.a[,2], las = 1, lwd = 2, xlab = "Time", ylab = "Density (N)", type = "l")
+plot(x = out.b[,1], y = out.b[,2], las = 1, lwd = 2, xlab = "Time", ylab = "Density (N)", type = "l")
+plot(x = out.c[,1], y = out.c[,2], las = 1, lwd = 2, xlab = "Time", ylab = "Density (N)", type = "l")
+```
+
+![](Wk04_Dynamics_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+
+---
+# Allee population change
+.pull-left[
+
+```r
+Ns &lt;- seq(from = -1, to = 11, by = 0.01)
+pop.change &lt;- unlist(allee(t = 1, N = Ns, parms = parameters))
+par(mar = c(4.5, 4.5, 0.1, 0.1))
+plot(x = Ns, y = pop.change, las = 1,  xlab = "Density (N)", ylab = "Population change (dN/dt)", type = "n")
+segments(x0 = -10, x1 = 20, y0 = 0, y1 = 0, lwd = 0.5)
+segments(y0 = -10, y1 = 20, x0 = 0, x1 = 0, lwd = 0.5)
+lines(x = Ns, y = pop.change, lwd = 2, col = "red")
+```
+]
+
+.pull-right[
+![](Wk04_Dynamics_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
+]
+
+
+---
+# Allee per-capita change
+.pull-left[
+
+```r
+Ns &lt;- seq(from = -1, to = 11, by = 0.01)
+pc.change &lt;- unlist(allee(t = 1, N = Ns, parms = parameters))/Ns
+par(mar = c(4.5, 4.5, 0.1, 0.1))
+plot(x = Ns, y = pc.change, las = 1,  xlab = "Density (N)", ylab = "Population change (dN/dt)", type = "n")
+segments(x0 = -10, x1 = 20, y0 = 0, y1 = 0, lwd = 0.5)
+segments(y0 = -10, y1 = 20, x0 = 0, x1 = 0, lwd = 0.5)
+lines(x = Ns, y = pc.change, lwd = 2, col = "red")
+```
+]
+
+.pull-right[
+![](Wk04_Dynamics_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+]
+
+---
+# Allee population change
+
+Only changing `\(A\)` (from 2 to 10) to make Allee effect stronger
+
+![](Wk04_Dynamics_files/figure-html/unnamed-chunk-11-1.png)&lt;!-- --&gt;
+
+---
+# Allee population change
+
+Only changing `\(A\)` (0 to 2) to make Allee effect weaker
+
+![](Wk04_Dynamics_files/figure-html/unnamed-chunk-12-1.png)&lt;!-- --&gt;
+
+
+---
+# Allee effects: determinting stability
+
+Take the derivative of the Allee model (remember the product rule)
+
+`$$\begin{align}
+\frac{dN}{dt} &amp;= rN\left(\frac{K-N}{K}\right)\left(\frac{N - A}{A}\right)\text{, as} \\
+\frac{d\frac{dN}{dt}}{dN} &amp;=\text{ what?}
+\end{align}$$`
+
+---
+# Allee effects: determinting stability
+
+**Determining stability takes two steps: (1) finding the derivative of the function with respect to `\(N\)` and (2) evaluating the derivative at each equilibrium that you calculate (or numerically solve for using a computer).**
+
+(1) Take the derivative of the Allee model
+
+`$$\frac{d\frac{dN}{dt}}{dN} = r\left(\frac{K-N}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{-1}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{K-N}{K}\right)\left(\frac{1}{A}\right)$$`
+
+(2) Insert equilibrium values and you will find stability criteria
+
+---
+
+# Allee effects: determinting stability
+**Equilibirum 1**, `\(N^* = 0\)`
+
+The derivative:
+`$$\frac{d\frac{dN}{dt}}{dN} = r\left(\frac{K-N}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{-1}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{K-N}{K}\right)\left(\frac{1}{A}\right)$$`
+
+--
+
+Evaluating at `\(N^* = 0\)`:
+`$$\frac{d\frac{dN}{dt}}{dN}\Bigg|_{N^*=0} = r\left(\frac{K-0}{K}\right)\left(\frac{0 - A}{A}\right) + r(0)\left(\frac{-1}{K}\right)\left(\frac{0 - A}{A}\right) + r(0)\left(\frac{K-0}{K}\right)\left(\frac{1}{A}\right)$$`
+
+--
+
+The solution:
+`$$-r$$`
+If `\(&lt;0\)`, then the point is stable; if `\(&gt;0\text{, then the point it unstable}\)`.
+
+---
+# Allee effects: determinting stability
+**Equilibirum 2**, `\(N^* = K\)`
+
+The derivative:
+`$$\frac{d\frac{dN}{dt}}{dN} = r\left(\frac{K-N}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{-1}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{K-N}{K}\right)\left(\frac{1}{A}\right)$$`
+
+--
+
+Evaluating at `\(N^* = K\)`:
+`$$\frac{d\frac{dN}{dt}}{dN}\Bigg|_{N^*=K} = r\left(\frac{K-K}{K}\right)\left(\frac{K - A}{A}\right) + r(K)\left(\frac{-1}{K}\right)\left(\frac{K - A}{A}\right) + r(K)\left(\frac{K-K}{K}\right)\left(\frac{1}{A}\right)$$`
+
+--
+
+The solution:
+`$$-r\left(\frac{K-A}{A}\right)$$`
+If `\(&lt;0\)`, then the point is stable; if `\(&gt;0\text{, then the point it unstable}\)`.
+
+---
+# Allee effects: determinting stability
+**Equilibirum 3**, `\(N^* = A\)`
+
+The derivative:
+`$$\frac{d\frac{dN}{dt}}{dN} = r\left(\frac{K-N}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{-1}{K}\right)\left(\frac{N - A}{A}\right) + rN\left(\frac{K-N}{K}\right)\left(\frac{1}{A}\right)$$`
+
+--
+
+Evaluating at `\(N^* = K\)`:
+`$$\frac{d\frac{dN}{dt}}{dN}\Bigg|_{N^*=A} = r\left(\frac{K-A}{K}\right)\left(\frac{A - A}{A}\right) + r(A)\left(\frac{-1}{K}\right)\left(\frac{A - A}{A}\right) + r(A)\left(\frac{K-A}{K}\right)\left(\frac{1}{A}\right)$$`
+
+--
+
+The solution:
+`$$r\left(\frac{K-A}{A}\right)$$`
+If `\(&lt;0\)`, then the point is stable; if `\(&gt;0\text{, then the point it unstable}\)`.
+
+---
+# Allee effects: stability summary
+1. At `\(N^* = 0\)`, if `\(r &gt; 0\)`, the equilibrium point is stable.
+
+--
+
+2. At `\(N^* = K\)`, if `\(-r\left(\frac{K-A}{A}\right)\)` is positive (births are greater than deaths, and the Allee threshold is less than the carrying capacity), the equilibrium point is stable.
+
+--
+
+3. At `\(N^* = A\)`, if `\(r\left(\frac{K-A}{A}\right)\)` is negative (births are greater than deaths, and the Allee threshold is less than the carrying capacity), the equilibrium point is unstable. Notice that it's the same as (2.), but as the opposite sign. This should make sense when thinking about it graphically, where the curve slopes must have opposite signs for adjacent equilibria.
+
+
+---
+class: inverse, center, middle
+![success kid](https://i.imgflip.com/26adp5.jpg)
+# I hope you're here
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
