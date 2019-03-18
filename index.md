@@ -54,7 +54,7 @@ F: 10:00 AM–12:00 PM
 - **Problem sets**: Exercises from the text. They are due Fridays by 5 PM of every week.
 - **Quizzes**: Every Tuesday there will be a quiz, with 5 multiple choice problems, based on the week's material. You will first take it individually, then with a group.
 - **Lab reports/experiments**: The Lab reports are in-lab work, mostly focused on programming in R. The Lab experiments are based on lab experiments and will be full write-ups.
-- **Remodeling project**: This is the big project of the semester where you will choose a scientific paper with an ecological model and recreate it. Throughout the semester you will give several small presentations on the paper and model.
+- **Remodeling project**: This is the big project of the semester where you will choose a scientific paper with an ecological model and recreate it. Throughout the semester you will give several small presentations on the paper and model. The first presentation will be an overview of the paper (0.03), the second presentation will be on the methods used by the authors and you (0.05), the third presentation will be on the results of the Remodeling attempt (0.07), and there will be a final paper summarizing the project (0.09).
 - **Participation**: Participation is necessary for this course to succeed.
 
 ### Attendance
